@@ -6,11 +6,11 @@ Description: Culprit 崩溃查看器界面汉化，独立插件不修改原包
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: debs/Culprit汉化包.deb
-Size: 12650
-MD5sum: 33cdbd8b751ea19a3b3d7858b2e069f2
-SHA256: 4a171d2693413d6d13b124f6b90f4b76adfd79e03fbf6d7d9701ba68ee2748fb
+Size: 12670
+MD5sum: c2d637928093bd414d8d80dab40675a1
+SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.floatingtabbar
 Name: 半透悬浮底栏
@@ -20,11 +20,11 @@ Description: 给部分自带App的底栏加上悬浮半透效果，深浅色自�
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: 美化
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Filename: debs/半透悬浮底栏.deb
-Size: 17460
-MD5sum: c48254a5d60d99e61068915109b80888
-SHA256: 9e4733c1fd1c385e5fc5a743a6fde4cb6b878a787b69902f7c31ad2dce9a6786
+Size: 17452
+MD5sum: b5c1147a46a8e796b47601a4c67ee576
+SHA256: 7509495adbf5313e33785e9a5d5652fc8f308f83f9301987c177f5121200c624
 
 Package: com.zegeyoudaoli.realcputwoline
 Name: 控制中心双行CPU模块
@@ -34,11 +34,11 @@ Description: 控制中心实时 CPU 频率+占用率两行显示模块
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: ControlCenter
-Depends: com.opa334.ccsupport (>= 1.3)
+Depends: com.opa334.ccsupport (>= 1.3), firmware (>= 15.0)
 Filename: debs/控制中心双行CPU模块.deb
-Size: 15692
-MD5sum: 3f39d4bb586b408715f888a9009b10f3
-SHA256: ffdd3733b814d459eadee8b7d8a2fd789a38754ddce29cd2df1bcc72a3f50a87
+Size: 15704
+MD5sum: 235d2a29ce03e891e7aa47444d13e31c
+SHA256: 86e4564e9698c8029193fdef7004c58e38f5b474cc78c422725616d39ed841f3
 
 Package: com.zegeyoudaoli.liquidalass
 Name: 液态半透弹窗
@@ -48,8 +48,8 @@ Description: 为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果。支持 R
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 17.0)
 Filename: debs/液态半透弹窗.deb
-Size: 24742
-MD5sum: cd4c54e65ce9ea55a78db5f50b88c9b0
-SHA256: 4fdf47df518a3b12881bd0e5b6ae5c02c69ae85c76a4b0bdae930583d09165d2
+Size: 24760
+MD5sum: 3cc7699947a5b544d4ad49f13c30b47b
+SHA256: 3b04fc0f0b6c0c96d565b2b3d2faad604fe2e7b8b3f09953280471f0bebb270f
