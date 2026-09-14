@@ -174,8 +174,11 @@ def build_packages_text(debs_dir: Path) -> str:
     for deb in sorted(debs_dir.glob("*.deb")):
         try:
             info = parse_deb_control(deb)
+            stem = info.get('Package','?').split('.')[-1]
+            info['Depiction']       = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.html'
+            info['SileoDepiction']  = info['Depiction']
             for key in ["Package", "Name", "Version", "Architecture", "Description",
-                        "Maintainer", "Author", "Section", "Depends",
+                        "Maintainer", "Author", "Depiction", "SileoDepiction", "Section", "Depends",
                         "Filename", "Size"]:
                 if key in info:
                     lines.append(f"{key}: {info[key]}")
