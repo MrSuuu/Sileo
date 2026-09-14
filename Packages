@@ -6,7 +6,7 @@ Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.zegeyoudaoli.culpritzh_1.0-6.deb
+Filename: debs/Culprit汉化包.deb
 Size: 12650
 MD5sum: 822c8418bece06b9134ab86e7e1d2df0
 SHA256: 91afb8503f2656fc89e10a2c2f2d5577bdd798880ac98c6b9f3ea7e35f2435c8
@@ -19,23 +19,10 @@ Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: 美化
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.zegeyoudaoli.floatingtabbar_1.0.deb
+Filename: debs/半透悬浮底栏.deb
 Size: 17460
 MD5sum: c48254a5d60d99e61068915109b80888
 SHA256: 9e4733c1fd1c385e5fc5a743a6fde4cb6b878a787b69902f7c31ad2dce9a6786
-
-Package: com.zegeyoudaoli.liquidalass
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Description: 为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果。支持 Relaxin/roothide 越狱环境。
-Maintainer: 泽哥有道理
-Author: 泽哥有道理
-Section: Tweaks
-Depends: mobilesubstrate
-Filename: debs/com.zegeyoudaoli.liquidalass_1.0.0.deb
-Size: 24764
-MD5sum: ecde1a5182695978d716e9820ace79e3
-SHA256: 4eee801e1ee4303f1ae7b93b7776663704e3d3db611692028a9c92fc668c7092
 
 Package: com.zegeyoudaoli.realcputwoline
 Version: 1.0
@@ -45,7 +32,20 @@ Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Section: ControlCenter
 Depends: com.opa334.ccsupport (>= 1.3)
-Filename: debs/com.zegeyoudaoli.realcputwoline_1.0.deb
+Filename: debs/控制中心双行CPU模块.deb
 Size: 15680
 MD5sum: b06d8e81865ce8251f0dea9513194f67
 SHA256: 65159690a2d4dc56613a8ef7db69328da60d7f9117540cb6f1fdb6109626816c
+
+Package: com.zegeyoudaoli.liquidalass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果。支持 Relaxin/roothide 越狱环境。
+Maintainer: 泽哥有道理
+Author: 泽哥有道理
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/液态半透弹窗.deb
+Size: 24764
+MD5sum: ecde1a5182695978d716e9820ace79e3
+SHA256: 4eee801e1ee4303f1ae7b93b7776663704e3d3db611692028a9c92fc668c7092
