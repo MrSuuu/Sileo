@@ -1,0 +1,8 @@
+Origin: 泽哥源
+Label: 泽哥源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 泽哥有道理的个人越狱插件源
