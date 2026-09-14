@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 控制中心双行CPU模块\n控制中心实时显示 CPU 频率与占用率两行模块，需配合 CCSupport 使用。\n\n包名：`com.zegeyoudaoli.realcputwoline`",
+          "markdown": "## 控制中心双行CPU模块\n控制中心实时显示 CPU 频率与占用率两行模块，需配合 CCSupport 使用。",
           "useSpacing": true
         },
         {
@@ -45,11 +45,6 @@
           "class": "DepictionTableTextView",
           "title": "大小",
           "text": "15.3 KB"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "下载次数",
-          "text": "—"
         }
       ]
     },

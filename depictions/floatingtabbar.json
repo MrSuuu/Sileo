@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 半透悬浮底栏\n给部分自带 App 的底栏加上悬浮半透效果，深浅色自适配。无设置项，安装即生效。\n\n包名：`com.zegeyoudaoli.floatingtabbar`",
+          "markdown": "## 半透悬浮底栏\n给部分自带 App 的底栏加上悬浮半透效果，深浅色自适配。无设置项，安装即生效。",
           "useSpacing": true
         },
         {
@@ -45,11 +45,6 @@
           "class": "DepictionTableTextView",
           "title": "大小",
           "text": "17.0 KB"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "下载次数",
-          "text": "—"
         }
       ]
     },

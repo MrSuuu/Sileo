@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## 液态半透弹窗\n为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果，支持 Relaxin / roothide 越狱环境。\n\n包名：`com.zegeyoudaoli.liquidalass`",
+          "markdown": "## 液态半透弹窗\n为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果，支持 Relaxin / roothide 越狱环境。",
           "useSpacing": true
         },
         {
@@ -45,11 +45,6 @@
           "class": "DepictionTableTextView",
           "title": "大小",
           "text": "24.2 KB"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "下载次数",
-          "text": "—"
         }
       ]
     },

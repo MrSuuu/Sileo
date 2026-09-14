@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## Culprit汉化包\nCulprit 崩溃查看器界面汉化，独立插件不修改原包。\n\n包名：`com.zegeyoudaoli.culpritzh`",
+          "markdown": "## Culprit汉化包\nCulprit 崩溃查看器界面汉化，独立插件不修改原包。",
           "useSpacing": true
         },
         {
@@ -45,11 +45,6 @@
           "class": "DepictionTableTextView",
           "title": "大小",
           "text": "12.4 KB"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "下载次数",
-          "text": "—"
         }
       ]
     },
