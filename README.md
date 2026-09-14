@@ -7,7 +7,7 @@
 在 Sileo / Zebra / Cydia 中添加源地址：
 
 ```
-https://MrSuuu.github.io/zegeyoudaoli-deb
+https://MrSuuu.github.io/Sileo
 ```
 
 ## 包含插件
@@ -42,4 +42,4 @@ GitHub Actions 会自动重新生成 `Packages` 索引，Sileo 刷新即可看�
 
 `Settings → Pages → Source: Deploy from a branch → Branch: main → / (root)`
 
-之后源地址即为 `https://MrSuuu.github.io/zegeyoudaoli-deb`。
+之后源地址即为 `https://MrSuuu.github.io/Sileo`。
