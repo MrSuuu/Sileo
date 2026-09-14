@@ -174,7 +174,7 @@ def build_packages_text(debs_dir: Path) -> str:
     for deb in sorted(debs_dir.glob("*.deb")):
         try:
             info = parse_deb_control(deb)
-            for key in ["Package", "Version", "Architecture", "Description",
+            for key in ["Package", "Name", "Version", "Architecture", "Description",
                         "Maintainer", "Author", "Section", "Depends",
                         "Filename", "Size"]:
                 if key in info:
