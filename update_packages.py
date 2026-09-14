@@ -201,6 +201,12 @@ def main():
     bz2_data = bz2.compress(pkg_text.encode("utf-8"))
     OUT_PKGS_BZ2.write_bytes(bz2_data)
     print(f"  ✅ Packages.bz2 ({len(bz2_data):,} bytes)")
+    # 生成 Packages.gz（Cydia / Zebra 兼容）
+    import gzip as _gzip
+    gz_path = REPO_DIR / "Packages.gz"
+    with _gzip.open(gz_path, "wb", compresslevel=9) as f:
+        f.write(pkg_text.encode("utf-8"))
+    print(f"  ✅ Packages.gz ({gz_path.stat().st_size:,} bytes)")
     print("\n🎉 完成！")
 
 if __name__ == "__main__":

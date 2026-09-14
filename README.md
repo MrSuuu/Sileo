@@ -1,58 +1,45 @@
-# My Cydia / Sileo 越狱源
+# 泽哥源 — 个人越狱插件源
 
-个人用越狱插件仓库，适配 iOS 越狱环境（roothide / CydiaSubstrate）。
+个人使用的 Cydia / Sileo 越狱源，适配 iOS 越狱环境（roothide / Relaxin / CydiaSubstrate）。
 
 ## 添加源
 
-在 Sileo / Cydia 中添加源地址：
+在 Sileo / Zebra / Cydia 中添加源地址：
 
 ```
-https://YOUR_USERNAME.github.io/repo/
+https://MrSuuu.github.io/zegeyoudaoli-deb
 ```
-
-> ⚠️ 把 `YOUR_USERNAME` 替换为你的 GitHub 用户名
 
 ## 包含插件
 
-| 插件 | 版本 | 说明 |
-|---|---|---|
-| Culprit 中文 | 1.0-6 | 抖音去评论区广告 + 界面增强 |
-| DYKiller iOS17 兼容版 | 0.5.8-ios17compat30 | 抖音液态玻璃，iOS 17 适配 |
-| RealCPUCC 两行CPU | 1.0 | 状态栏 CPU 两行显示模块 |
+| 插件 | 标识 | 版本 | 说明 |
+|---|---|---|---|
+| 悬浮底栏 | com.zegeyoudaoli.floatingtabbar | 1.0 | 给部分自带 App 的底栏加悬浮半透效果 |
+| Liquid Glass Popup | com.zegeyoudaoli.liquidalass | 1.0.0 | 为 iOS 17+ 弹窗添加 iOS 26 液态玻璃效果 |
+| RealCPU 两行显示 | com.zegeyoudaoli.realcputwoline | 1.0 | 控制中心实时 CPU 频率+占用率两行显示 |
+| Culprit 汉化 | com.zegeyoudaoli.culpritzh | 1.0-6 | Culprit 崩溃查看器界面汉化 |
 
-## 自托管说明
+## 目录结构
 
-### 方式一：GitHub Pages（推荐）
-
-1. Fork 或新建一个 GitHub 仓库，名字随意（如 `my-repo`）
-2. 把本仓库所有文件 push 到 `main` 分支
-3. 开启 GitHub Pages：`Settings → Pages → Source: Deploy from a branch → main`
-4. 源地址变为：`https://YOUR_USERNAME.github.io/my-repo/`
-5. 在 `update_packages.py` 和 `sileo.json` 里把 `YOUR_USERNAME` 替换成你的用户名
-
-### 方式二：手动更新（不用 GitHub Actions）
-
-```bash
-# 1. 把新的 .deb 放入 debs/ 目录
-cp ~/Downloads/xxx.deb debs/
-
-# 2. 运行生成脚本
-python3 update_packages.py
-
-# 3. 提交并 push
-git add .
-git commit -m "add xxx.deb"
-git push
+```
+├── Packages / Packages.bz2   # 源索引（自动生成）
+├── debs/                     # 插件安装包
+├── depictions/               # 插件详情页
+├── sileo.json                # Sileo 源描述
+├── update_packages.py        # 索引生成脚本
+└── .github/workflows/        # 自动更新工作流
 ```
 
-### 添加新包
+## 添加新插件
 
-1. 把 `.deb` 文件放入 `debs/` 目录
-2. 提交 push，GitHub Actions 自动更新 Packages 索引
-3. Sileo/Cydia 添加 `depictions/PACKAGE_ID.html` 可制作详情页
+1. 把新的 `.deb` 放进 `debs/` 目录
+2. 本地跑 `python3 update_packages.py`（或直接 push，Actions 会自动跑）
+3. `git add . && git commit -m "Add xxx" && git push`
 
-## 环境要求
+GitHub Actions 会自动重新生成 `Packages` 索引，Sileo 刷新即可看到新包。
 
-- iOS 14+（部分插件需要 iOS 17+）
-- 越狱环境：CydiaSubstrate / roothide
-- 安装器：Sileo / Cydia / Zebra
+## 开启 GitHub Pages
+
+`Settings → Pages → Source: Deploy from a branch → Branch: main → / (root)`
+
+之后源地址即为 `https://MrSuuu.github.io/zegeyoudaoli-deb`。

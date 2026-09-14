@@ -1,9 +1,9 @@
 {
   "name": "泽哥源",
   "identifier": "com.zegeyoudaoli.repo",
-  "url": "https://YOUR_USERNAME.github.io/pro",
+  "url": "https://MrSuuu.github.io/zegeyoudaoli-deb",
   "version": "1.0",
-  "contact": "https://github.com/YOUR_USERNAME",
+  "contact": "https://github.com/MrSuuu",
   "packages": [
     {
       "name": "悬浮底栏",
@@ -12,8 +12,7 @@
       "description": "给部分自带 App 的底栏加上悬浮半透效果，深浅色自适配，安装自动生效。",
       "section": "美化",
       "author": { "name": "泽哥有道理" },
-      " depiction": "depictions/floatingtabbar.html",
-      "icon": "icons/floatingtabbar.png"
+      "depiction": "depictions/floatingtabbar.html"
     },
     {
       "name": "Liquid Glass Popup",
@@ -22,8 +21,7 @@
       "description": "为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果，支持 Relaxin/roothide 越狱环境。",
       "section": "美化",
       "author": { "name": "泽哥有道理" },
-      "depiction": "depictions/liquidalass.html",
-      "icon": "icons/liquidalass.png"
+      "depiction": "depictions/liquidalass.html"
     },
     {
       "name": "RealCPU 两行显示",
@@ -32,8 +30,7 @@
       "description": "控制中心实时 CPU 频率+占用率两行显示模块，需 CCSupport。",
       "section": "ControlCenter",
       "author": { "name": "泽哥有道理" },
-      "depiction": "depictions/realcputwoline.html",
-      "icon": "icons/realcputwoline.png"
+      "depiction": "depictions/realcputwoline.html"
     },
     {
       "name": "Culprit 汉化",
@@ -42,8 +39,7 @@
       "description": "Culprit 崩溃查看器界面汉化，独立插件不修改原包。",
       "section": "Tweaks",
       "author": { "name": "泽哥有道理" },
-      "depiction": "depictions/culpritzh.html",
-      "icon": "icons/culpritzh.png"
+      "depiction": "depictions/culpritzh.html"
     }
   ]
 }
