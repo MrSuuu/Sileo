@@ -6,7 +6,7 @@ Description: Culprit 崩溃查看器界面汉化，独立插件不修改原包
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Depiction: https://MrSuuu.github.io/Sileo/depictions/culpritzh.html
-SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/culpritzh.html
+SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/culpritzh.json
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 14.0)
 Filename: debs/Culprit汉化包.deb
@@ -22,7 +22,7 @@ Description: 给部分自带App的底栏加上悬浮半透效果，深浅色自�
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Depiction: https://MrSuuu.github.io/Sileo/depictions/floatingtabbar.html
-SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/floatingtabbar.html
+SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/floatingtabbar.json
 Section: 美化
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Filename: debs/半透悬浮底栏.deb
@@ -38,7 +38,7 @@ Description: 控制中心实时 CPU 频率+占用率两行显示模块
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Depiction: https://MrSuuu.github.io/Sileo/depictions/realcputwoline.html
-SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/realcputwoline.html
+SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/realcputwoline.json
 Section: ControlCenter
 Depends: com.opa334.ccsupport (>= 1.3), firmware (>= 15.0)
 Filename: debs/控制中心双行CPU模块.deb
@@ -54,7 +54,7 @@ Description: 为 iOS 17+ 设备弹窗添加 iOS 26 液态玻璃效果。支持 R
 Maintainer: 泽哥有道理
 Author: 泽哥有道理
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidalass.html
-SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/liquidalass.html
+SileoDepiction: https://MrSuuu.github.io/Sileo/depictions/liquidalass.json
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 17.0)
 Filename: debs/液态半透弹窗.deb

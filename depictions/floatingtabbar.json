@@ -1,0 +1,194 @@
+{
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionLabel",
+          "text": "半透悬浮底栏",
+          "fontSize": 22,
+          "fontWeight": "bold",
+          "textColor": "#FFFFFF",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionSpacer",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionLabel",
+          "text": "给部分自带App的底栏加上悬浮半透效果，深浅色自适配，无设置，安装自动生效。",
+          "fontSize": 14,
+          "textColor": "#EBEBF5CC",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionSpacer",
+          "spacing": 28
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "vertical",
+          "spacing": 24,
+          "useMargins": true,
+          "views": [
+            {
+              "class": "DepictionStackView",
+              "orientation": "horizontal",
+              "spacing": 20,
+              "views": [
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "开发者",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "泽哥有道理",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                },
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "更新时间",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "2026-09-14 16:51",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "DepictionStackView",
+              "orientation": "horizontal",
+              "spacing": 20,
+              "views": [
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "当前版本",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "1.0",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                },
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "插件大小",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "17.0 KB",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "DepictionStackView",
+              "orientation": "horizontal",
+              "spacing": 20,
+              "views": [
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "下载次数",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "—",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                },
+                {
+                  "class": "DepictionStackView",
+                  "orientation": "vertical",
+                  "spacing": 6,
+                  "views": [
+                    {
+                      "class": "DepictionLabel",
+                      "text": "系统兼容",
+                      "fontSize": 13,
+                      "textColor": "#EBEBF599",
+                      "useMargins": false
+                    },
+                    {
+                      "class": "DepictionLabel",
+                      "text": "iOS 15.0 +",
+                      "fontSize": 20,
+                      "fontWeight": "medium",
+                      "textColor": "#FFFFFF",
+                      "useMargins": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

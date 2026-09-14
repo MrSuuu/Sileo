@@ -176,7 +176,7 @@ def build_packages_text(debs_dir: Path) -> str:
             info = parse_deb_control(deb)
             stem = info.get('Package','?').split('.')[-1]
             info['Depiction']       = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.html'
-            info['SileoDepiction']  = info['Depiction']
+            info['SileoDepiction']  = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.json'
             for key in ["Package", "Name", "Version", "Architecture", "Description",
                         "Maintainer", "Author", "Depiction", "SileoDepiction", "Section", "Depends",
                         "Filename", "Size"]:
