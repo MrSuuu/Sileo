@@ -1,0 +1,60 @@
+name: 更新越狱源索引
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # 也可以手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装依赖
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 python3
+
+      - name: 生成 Packages 索引
+        run: python3 update_packages.py
+
+      - name: 提交索引到 gh-pages
+        run: |
+          # 如果没有 gh-pages 分支，先创建
+          if ! git ls-remote --heads origin gh-pages | grep -q gh-pages; then
+            git checkout --orphan gh-pages
+            git rm -rf .
+          else
+            git fetch origin gh-pages:gh-pages
+            git worktree add .gh-pages origin/gh-pages
+            cd .gh-pages
+          fi
+
+          # 复制生成的索引文件
+          cp Packages Packages.bz2 Release ./
+          mkdir -p debs
+
+          # 复制 deb 文件
+          cp debs/*.deb ./debs/ 2>/dev/null || true
+
+          # 复制 sileo 配置
+          cp sileo.json ./
+
+          # 提交
+          git add Packages Packages.bz2 Release sileo.json debs/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "🤖 自动更新 Packages 索引 $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin gh-pages --force
+
+      # ── 如果不用 gh-pages 分支，可以用 GitHub Pages 部署 main 分支 ──
+      # 取消注释下面这段来直接部署到 GitHub Pages（Settings → Pages → Source: GitHub Actions）
+      # - name: 部署到 GitHub Pages
+      #   if: github.ref == 'refs/heads/main'
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: .
