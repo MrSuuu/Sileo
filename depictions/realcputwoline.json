@@ -1,192 +1,66 @@
 {
-  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
   "tabs": [
     {
-      "tabname": "Details",
+      "class": "DepictionStackView",
+      "tabname": "描述",
       "views": [
         {
-          "class": "DepictionLabel",
-          "text": "控制中心双行CPU模块",
-          "fontSize": 22,
-          "fontWeight": "bold",
-          "textColor": "#FFFFFF",
-          "useMargins": true
+          "class": "DepictionMarkdownView",
+          "markdown": "## 控制中心双行CPU模块\n控制中心实时显示 CPU 频率与占用率两行模块，需配合 CCSupport 使用。\n\n包名：`com.zegeyoudaoli.realcputwoline`",
+          "useSpacing": true
         },
         {
-          "class": "DepictionSpacer",
-          "spacing": 8
+          "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionLabel",
-          "text": "控制中心实时 CPU 频率+占用率两行显示模块",
-          "fontSize": 14,
-          "textColor": "#EBEBF5CC",
-          "useMargins": true
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
         },
         {
-          "class": "DepictionSpacer",
-          "spacing": 28
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "泽哥有道理"
         },
         {
-          "class": "DepictionStackView",
-          "orientation": "vertical",
-          "spacing": 24,
-          "useMargins": true,
-          "views": [
-            {
-              "class": "DepictionStackView",
-              "orientation": "horizontal",
-              "spacing": 20,
-              "views": [
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "开发者",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "泽哥有道理",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                },
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "更新时间",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "2026-09-14 16:51",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "DepictionStackView",
-              "orientation": "horizontal",
-              "spacing": 20,
-              "views": [
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "当前版本",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "1.0",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                },
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "插件大小",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "15.3 KB",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "class": "DepictionStackView",
-              "orientation": "horizontal",
-              "spacing": 20,
-              "views": [
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "下载次数",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "—",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                },
-                {
-                  "class": "DepictionStackView",
-                  "orientation": "vertical",
-                  "spacing": 6,
-                  "views": [
-                    {
-                      "class": "DepictionLabel",
-                      "text": "系统兼容",
-                      "fontSize": 13,
-                      "textColor": "#EBEBF599",
-                      "useMargins": false
-                    },
-                    {
-                      "class": "DepictionLabel",
-                      "text": "iOS 15.0 +",
-                      "fontSize": 20,
-                      "fontWeight": "medium",
-                      "textColor": "#FFFFFF",
-                      "useMargins": false
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026-09-14"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "15.3 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "下载次数",
+          "text": "—"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 1.0\n- 初版发布",
+          "useSpacing": true
         }
       ]
     }
