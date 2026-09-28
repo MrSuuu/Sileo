@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## Liquid (Gl)ass · 泽哥维护版\n基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。\n\n### 本版的改动\n- 修复锁屏时钟景深效果\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样\n- 灵动岛展开 / 收起动画全程几何跟随\n- 设置新增「灵动岛」页面，可单独调节色调、高光、模糊等参数\n- 修复锁屏场景下灵动岛取不到子视图的问题",
+          "markdown": "## Liquid (Gl)ass · 泽哥维护版\n基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。\n\n### 本版的改动\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样，展开 / 收起动画全程几何跟随，并新增「灵动岛」设置页面\n- 新增锁屏日期/农历行液态玻璃（跟随时钟效果）\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深效果\n- 修复锁屏场景下灵动岛取不到子视图的问题\n- 修复卸载插件导致的 ElleKit 破坏\n\n### 兼容性\n- 已验证：iOS 17.0（roothide / Relaxin 越狱）\n- 理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支，但未在任何真机验证过）\n- 设备：arm64 + arm64e 双切片（A8 及更新机型）\n- 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）：roothide 已验证；rootless 需另出对应格式的包；unc0ver / checkra1n 不支持",
           "useSpacing": true
         },
         {
@@ -29,22 +29,22 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "2-0.1.1-2b"
+          "text": "2-0.1.1-2b+island81"
         },
         {
           "class": "DepictionTableTextView",
           "title": "支持系统",
-          "text": "iOS 17.0 +"
+          "text": "iOS 14.0 – 18.x（已验证 17.0）"
         },
         {
           "class": "DepictionTableTextView",
           "title": "更新日期",
-          "text": "2026/09/28 14:54:52"
+          "text": "2026/09/29 00:26:13"
         },
         {
           "class": "DepictionTableTextView",
           "title": "大小",
-          "text": "3.5 MB"
+          "text": "3.6 MB"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本: 2-0.1.1-2b\n- 修复锁屏时钟景深效果\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样\n- 灵动岛展开 / 收起动画全程几何跟随\n- 设置新增「灵动岛」页面，可单独调节色调、高光、模糊等参数\n- 修复锁屏场景下灵动岛取不到子视图的问题",
+          "markdown": "#### 版本: 2-0.1.1-2b+island81\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃（含「灵动岛」设置页）\n- 新增锁屏日期/农历行液态玻璃\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深\n- 修复卸载插件导致的 ElleKit 破坏\n- 兼容性：已验证 iOS 17.0 / roothide",
           "useSpacing": true
         }
       ]
