@@ -29,7 +29,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "2-0.1.1-2b+island82"
+          "text": "2-0.1.1-2b+island94"
         },
         {
           "class": "DepictionTableTextView",
@@ -39,7 +39,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "更新日期",
-          "text": "2026/09/29 00:42:49"
+          "text": "2026/09/29 04:38:00"
         },
         {
           "class": "DepictionTableTextView",
@@ -54,7 +54,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本: 2-0.1.1-2b+island82\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃（含「灵动岛」设置页）\n- 新增锁屏日期/农历行液态玻璃\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深\n- 修复卸载插件导致的 ElleKit 破坏\n- 兼容性：已验证 iOS 17.0 / roothide",
+          "markdown": "#### 版本: 2-0.1.1-2b+island94\n- 修复灵动岛折射（渲染端挂载 island 滤镜，设置页参数可调）\n\n#### 版本: 2-0.1.1-2b+island82\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃（含「灵动岛」设置页）\n- 新增锁屏日期/农历行液态玻璃\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深\n- 修复卸载插件导致的 ElleKit 破坏\n- 兼容性：已验证 iOS 17.0 / roothide",
           "useSpacing": true
         }
       ]
