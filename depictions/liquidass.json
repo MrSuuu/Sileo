@@ -1,0 +1,63 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## Liquid (Gl)ass · 泽哥维护版\n基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。\n\n### 本版的改动\n- 修复锁屏时钟景深效果\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样\n- 灵动岛展开 / 收起动画全程几何跟随\n- 设置新增「灵动岛」页面，可单独调节色调、高光、模糊等参数\n- 修复锁屏场景下灵动岛取不到子视图的问题",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "dylv&泽哥"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "2-0.1.1-2b"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 17.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/09/28 14:54:52"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "3.5 MB"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2-0.1.1-2b\n- 修复锁屏时钟景深效果\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样\n- 灵动岛展开 / 收起动画全程几何跟随\n- 设置新增「灵动岛」页面，可单独调节色调、高光、模糊等参数\n- 修复锁屏场景下灵动岛取不到子视图的问题",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
