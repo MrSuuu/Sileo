@@ -14,6 +14,7 @@
   }
   h1 { font-size: 24px; font-weight: 600; margin: 0 0 14px; letter-spacing: 0.2px; }
   .desc { font-size: 15px; line-height: 1.65; color: #ebebf5cc; margin-bottom: 30px; white-space: pre-wrap; }
+  .warn { margin-bottom: 26px; padding: 14px 16px; border: 1px solid #ff9f0a55; border-radius: 10px; background: #ff9f0a14; font-size: 14px; line-height: 1.6; color: #ffd48a; }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 22px; }
   .cell .label { font-size: 13px; color: #ebebf599; margin-bottom: 6px; font-weight: 400; }
   .cell .value { font-size: 22px; color: #ffffff; font-weight: 500; line-height: 1.2; }
@@ -22,9 +23,15 @@
 </head>
 <body>
   <h1>Liquid (Gl)ass · 泽哥维护版</h1>
-  <div class="desc">基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+  <div class="warn">⚠️ 本源提供两种格式的包，Sileo 按你的越狱类型自动显示对应的一个。<br>rootless (Dopamine) 版<b>仅供测试，未真机实践，安装即代表接受未知风险</b>。</div>
+  <div class="desc">## Liquid (Gl)ass · 泽哥维护版
+基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 
-本版的改动
+两种格式的包（Sileo 按你的越狱类型自动显示对应的一个）
+- **roothide (Relaxin)**：版本 `2-0.1.1-2c+island129`（已真机验证 ✅）
+- **rootless (Dopamine 等)**：版本 `2-0.1.1-2c+island129+rootless`（**仅供测试，未真机实践，安装即代表接受未知风险**）
+
+### 本版的改动
 - 新增底部弹窗/App弹窗液态玻璃
 - 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样，展开/收起动画全程几何跟随，并新增「灵动岛」设置页面
 - 新增锁屏日期/农历行液态玻璃（跟随时钟效果）
@@ -35,23 +42,24 @@
 - 修复未汉化部分及重新调整名称
 - 优化插件CPU占用与功耗
 - 增加标签栏透镜大小调节，并尝试修复ios16设备透镜问题
+- rootless 版与 roothide 版全功能同步（灵动岛 / 弹窗 / 键盘 / RWB 同源）
 
-兼容性
-- 已验证：iOS 17.0 (roothide / Relaxin 越狱)
+### 兼容性
+- 已验证（roothide 格式包）：iOS 17.0 (roothide / Relaxin 越狱)
 - 理论支持、未实测：iOS 14 / 15 / 16 / 18 (源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过)
 
-设备 / 架构
+### 设备 / 架构
 - arm64 + arm64e 双切片，覆盖 A8 及更新机型
 
-越狱环境（依赖 ellekit，不依赖 mobilesubstrate）
-- roothide (Relaxin) —— 已验证 ✅
-- rootless (Dopamine 等) —— 代码兼容，但本包是 roothide 格式，需另出 rootless 格式的包才能装 ⚠️
+### 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）
+- roothide (Relaxin) —— 已验证 ✅（roothide 格式包）
+- rootless (Dopamine 等) —— 仅供测试 ⚠️（rootless 格式包）
 - rootful (palera1n + ellekit) —— 理论支持 ⚠️
 - unc0ver / checkra1n (Substitute) 不支持 ❌</div>
   <div class="grid">
     <div class="cell"><div class="label">开发者</div><div class="value">dylv&泽哥</div></div>
-    <div class="cell"><div class="label">更新时间</div><div class="value">2026-10-01 19:53:51</div></div>
-    <div class="cell"><div class="label">当前版本</div><div class="value">2-0.1.1-2c+island129</div></div>
+    <div class="cell"><div class="label">更新时间</div><div class="value">2026-10-02 02:07:05</div></div>
+    <div class="cell"><div class="label">当前版本</div><div class="value">island129（roothide / rootless 两种格式）</div></div>
     <div class="cell"><div class="label">插件大小</div><div class="value">3.6 MB</div></div>
     <div class="cell"><div class="label">下载次数</div><div class="value">—</div></div>
     <div class="cell"><div class="label">系统兼容</div><div class="value">iOS 14.0 – 18.x（已验证 17.0）</div></div>

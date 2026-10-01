@@ -15,6 +15,22 @@ MD5sum: c2d637928093bd414d8d80dab40675a1
 SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: dylv.liquidass
+Name: Liquid (Gl)ass · 泽哥维护版（rootless 测试）
+Version: 2-0.1.1-2c+island129+rootless
+Architecture: iphoneos-arm64
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island129+rootless_iphoneos-arm64.deb
+Size: 3735324
+MD5sum: 9fb124d8347b9103ac91da1653a37fbf
+SHA256: a8b759b7bc8027ae6862f096a806089f32ddc3ba16120bb9f6cb4552f206216f
+
+Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护版
 Version: 2-0.1.1-2c+island129
 Architecture: iphoneos-arm64e
