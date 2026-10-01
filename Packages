@@ -16,7 +16,7 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护版
-Version: 2-0.1.1-2b+island128
+Version: 2-0.1.1-2c+island129
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 Maintainer: dylv&泽哥
@@ -25,10 +25,10 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
-Filename: debs/dylv.liquidass_2-0.1.1-2b+island128_iphoneos-arm64e.deb
-Size: 3731844
-MD5sum: b6a934195e9b0921fab8b0c47c6960b6
-SHA256: 3761699aba5a20b315ec720a733ac9c3924b7052d28754c5e51b9fa4c30bc560
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island129_iphoneos-arm64e.deb
+Size: 3728120
+MD5sum: 85939eab462646fffe098bc50ace43b9
+SHA256: 496605a3dced9f52eadf766875cf27b1c0eed77117d2d1c6ec312102fa69d223
 
 Package: com.zegeyoudaoli.floatingtabbar
 Name: 半透悬浮底栏
