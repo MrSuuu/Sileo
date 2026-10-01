@@ -36,12 +36,15 @@ def parse_control_in_tar(tar_data: bytes) -> dict:
     info = {}
 
     # ── 方法A: 直接搜索 "Package:" 字节序列（最可靠兜底） ──
+    # ⚠️ 窗口必须足够大：theos 的 control 里超长多行 Description 排在 Version/Architecture
+    #    **之前**，Description 一加长就会把它们推出窗口 → Version 丢失、Architecture 截断
+    #    （2026-10-02 实测：1500 字节窗口恰好卡在 "iphoneos-a" 中间）。control 全文 < 2KB，取 8KB。
     raw = tar_data
     pkg_idx = raw.find(b'Package:')
     if pkg_idx >= 0:
         # 往前找行首，往后取足够长
         line_start = max(0, raw.rfind(b'\n', 0, pkg_idx))
-        chunk = raw[line_start:pkg_idx + 1500]
+        chunk = raw[line_start:pkg_idx + 8000]
         text = chunk.decode('utf-8', errors='replace')
         for line in text.splitlines():
             line = line.strip()
@@ -57,7 +60,7 @@ def parse_control_in_tar(tar_data: bytes) -> dict:
                 info[k] = v
         # PAX tar: 如果 Package 没被加进去，从 pkg_idx 直接起读
         if 'Package' not in info and pkg_idx >= 0:
-            ctrl_text = tar_data[pkg_idx:pkg_idx + 2000].decode('utf-8', errors='replace')
+            ctrl_text = tar_data[pkg_idx:pkg_idx + 8000].decode('utf-8', errors='replace')
             for line in ctrl_text.splitlines():
                 line = line.strip()
                 if ':' not in line:
