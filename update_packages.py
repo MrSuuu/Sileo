@@ -56,7 +56,7 @@ def parse_control_in_tar(tar_data: bytes) -> dict:
             if k in ('Package', 'Version', 'Architecture', 'Description',
                      'Maintainer', 'Author', 'Section', 'Depends', 'Name',
                      'Pre-Depends', 'Recommends', 'Conflicts', 'Provides',
-                     'Replaces', 'Filename'):
+                     'Replaces', 'Filename', 'Icon'):
                 info[k] = v
         # PAX tar: 如果 Package 没被加进去，从 pkg_idx 直接起读
         if 'Package' not in info and pkg_idx >= 0:
@@ -69,7 +69,7 @@ def parse_control_in_tar(tar_data: bytes) -> dict:
                 k = k.strip()
                 v = v.strip()
                 if k in ('Package', 'Version', 'Architecture', 'Description',
-                         'Maintainer', 'Author', 'Section', 'Depends', 'Name'):
+                         'Maintainer', 'Author', 'Section', 'Depends', 'Name', 'Icon'):
                     info[k] = v
         if info:
             return info
@@ -120,7 +120,7 @@ def parse_control_in_tar(tar_data: bytes) -> dict:
                 k = k.strip()
                 v = v.strip()
                 if k in ('Package', 'Version', 'Architecture', 'Description',
-                         'Maintainer', 'Author', 'Section', 'Depends', 'Name'):
+                         'Maintainer', 'Author', 'Section', 'Depends', 'Name', 'Icon'):
                     info[k] = v
             return info
         pos += 512 + ((size + 511) // 512) * 512
@@ -182,7 +182,7 @@ def build_packages_text(debs_dir: Path) -> str:
             info['Sileodepiction']  = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.json'
             for key in ["Package", "Name", "Version", "Architecture", "Description",
                         "Maintainer", "Author", "Depiction", "Sileodepiction", "Section", "Depends",
-                        "Filename", "Size"]:
+                        "Icon", "Filename", "Size"]:
                 if key in info:
                     lines.append(f"{key}: {info[key]}")
             lines.append(f"MD5sum: {md5_hex(deb)}")
