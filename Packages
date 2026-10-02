@@ -16,7 +16,7 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护版（rootless 测试）
-Version: 2-0.1.1-2c+island130+rootless
+Version: 2-0.1.1-2c+island132+rootless
 Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 Maintainer: dylv&泽哥
@@ -25,14 +25,14 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
-Filename: debs/dylv.liquidass_2-0.1.1-2c+island130+rootless_iphoneos-arm64.deb
-Size: 3742160
-MD5sum: 3a73799e4fe182fcbde4fafbcd702746
-SHA256: 55d576992844e63d71003ccec987b774c99fe785862da5e98a5f37cd299f8319
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island132+rootless_iphoneos-arm64.deb
+Size: 3746878
+MD5sum: 696a56de41a984e5257e4ce40b5cd9c4
+SHA256: 71e5020785add1d0d210e008d219a01fd73a5c70219992eb44eaf617f8da3bce
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护版
-Version: 2-0.1.1-2c+island130
+Version: 2-0.1.1-2c+island132
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 Maintainer: dylv&泽哥
@@ -41,10 +41,10 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
-Filename: debs/dylv.liquidass_2-0.1.1-2c+island130_iphoneos-arm64e.deb
-Size: 3739952
-MD5sum: 349a73b53fadf330c2327e063a6c3711
-SHA256: c51aab744e8e1fdf9d708b88eddc5eec7ccec30d3cae9dfb584c90a9355708b0
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island132_iphoneos-arm64e.deb
+Size: 3745720
+MD5sum: 4e4367d4952ef9b4776486b3a5d31445
+SHA256: 74709f2e03a9c3e0452d94a61a06dd0f917671521a32a7643aa6e7511a150e6c
 
 Package: com.zegeyoudaoli.floatingtabbar
 Name: 半透悬浮底栏
