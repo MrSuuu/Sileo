@@ -27,9 +27,9 @@ Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
 Filename: debs/dylv.liquidass_2-0.1.1-2c+island135+rootless_iphoneos-arm64.deb
-Size: 3762290
-MD5sum: ce80050ad67ab4034ccb8a6e9a2c4176
-SHA256: 1df635ab6af9bad42467f1fa4a6a2271c6cc682f72089708a6da86f3a0a8cb58
+Size: 3537394
+MD5sum: b4e88c2b22aa28b51a24f7a138071f1d
+SHA256: 1b4932480edd55e4e26ca5bad2034f46cc55c90275e4a68a1f2c6f59783987af
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护版
@@ -44,9 +44,9 @@ Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
 Filename: debs/dylv.liquidass_2-0.1.1-2c+island135_iphoneos-arm64e.deb
-Size: 3753206
-MD5sum: e5ed6254377ec1f0d8b70c557bda0cdd
-SHA256: 9fc830346f3f714cce9532cb5f3b2bac1269c47d382ee2391ead7f746b036f7d
+Size: 3526008
+MD5sum: 194a6a954789c5cc8abfac404c02d35f
+SHA256: f9b55b95064cfa38d0ebce3785f624ce25b09b5204b066a27a77c1881adeb996
 
 Package: com.zegeyoudaoli.floatingtabbar
 Name: 半透悬浮底栏
