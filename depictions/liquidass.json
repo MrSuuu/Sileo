@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "## Liquid (Gl)ass · 泽哥维护版\n基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。\n\n两种格式的包（Sileo 按你的越狱类型自动显示对应的一个）\n- **roothide (Relaxin)**：版本 `2-0.1.1-2c+island135`（已真机验证 ✅）\n- **rootless (Dopamine 等)**：版本 `2-0.1.1-2c+island135+rootless`（**仅供测试，未真机实践，安装即代表接受未知风险**）\n\n### 本版的改动\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样，展开/收起动画全程几何跟随，并新增「灵动岛」设置页面\n- 新增锁屏日期/农历行液态玻璃（跟随时钟效果）\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 新增锁屏时钟/日期渐变色\n- 新增音量HUD液态玻璃\n- 修复锁屏时钟景深效果\n- 修复锁屏场景下灵动岛取不到子视图的问题\n- 修复卸载插件导致的 ElleKit 破坏\n- 修复ios16设备标签栏透镜渲染错位问题\n- 修复灵动岛实时活动远端渲染黑块问题\n\n### 兼容性\n- 已验证：iOS 17.0 (roothide / Relaxin 越狱)\n- 理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过）\n\n### 设备 / 架构\n- arm64 + arm64e 双切片，覆盖 A8 及更新机型\n\n### 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）\n- roothide (Relaxin) —— 已验证 ✅\n- rootless (Dopamine 等) —— 已出对应格式包 ⚠️（未真机实践）\n- rootful (palera1n + ellekit) —— 理论支持 ⚠️\n- unc0ver / checkra1n (Substitute) 不支持 ❌",
+          "markdown": "## Liquid (Gl)ass · 泽哥维护版\n基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。\n\n两种格式的包（Sileo 按你的越狱类型自动显示对应的一个）\n- **roothide (Relaxin)**：版本 `2-0.1.1-2c+island136`（已真机验证 ✅）\n- **rootless (Dopamine 等)**：版本 `2-0.1.1-2c+island136+rootless`（**仅供测试，未真机实践，安装即代表接受未知风险**）\n\n### 本版的改动\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样，展开/收起动画全程几何跟随，并新增「灵动岛」设置页面\n- 新增锁屏日期/农历行液态玻璃（跟随时钟效果）\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 新增锁屏时钟/日期渐变色\n- 新增音量HUD液态玻璃\n- 修复锁屏时钟景深效果\n- 修复锁屏场景下灵动岛取不到子视图的问题\n- 修复卸载插件导致的 ElleKit 破坏\n- 修复ios16设备标签栏透镜渲染错位问题\n- 修复灵动岛实时活动远端渲染黑块问题\n\n### 兼容性\n- 已验证：iOS 17.0 (roothide / Relaxin 越狱)\n- 理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过）\n\n### 设备 / 架构\n- arm64 + arm64e 双切片，覆盖 A8 及更新机型\n\n### 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）\n- roothide (Relaxin) —— 已验证 ✅\n- rootless (Dopamine 等) —— 已出对应格式包 ⚠️（未真机实践）\n- rootful (palera1n + ellekit) —— 理论支持 ⚠️\n- unc0ver / checkra1n (Substitute) 不支持 ❌",
           "useSpacing": true
         },
         {
@@ -29,7 +29,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "roothide: 2-0.1.1-2c+island135\nrootless: 2-0.1.1-2c+island135+rootless"
+          "text": "roothide: 2-0.1.1-2c+island136\nrootless: 2-0.1.1-2c+island136+rootless"
         },
         {
           "class": "DepictionTableTextView",
@@ -39,7 +39,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "更新日期",
-          "text": "2026/10/03 11:00:42"
+          "text": "2026/10/03 11:10:17"
         },
         {
           "class": "DepictionTableTextView",
@@ -54,7 +54,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本: 2-0.1.1-2c+island135（roothide）／ +rootless（rootless 测试版）\n- 修复锁屏快捷操作在 iOS 17 不生效的 bug\n- 新增音量 HUD 液态玻璃（iOS 17）：锚点 `SBElasticVolumeViewController` + `SBElasticSliderView`；\n  玻璃改插进内容视图 `_CCUIBaseSliderContentView` 内部（二十修，经实机逐帧定位后的关键结论），\n  废弃此前「同心放大 + 自定义 mask + 宿主不裁剪」的整套绕法\n  （根因：玻璃一直插在外层滑块，外层 bounds 只有胶囊的 0.76 倍，才派生出内缩线/跳位/白条错位）\n- 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃；\n  白色填充条就地裁成胶囊并降透明度（alpha 0.30），消除拖动时矩形一闪一闪\n- 修 bezel 渲染参数被自身补丁静默打回：阈值放宽到 >22。此前 `v > 12 → 强制写回 7` 会把\n  用户拖的 20 / 40 一并吃掉，是「调参没反应」的真凶（日志实锤 `bezel 修正 40 → 7.0`）\n- 修灵动岛实时活动远端渲染黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）\n- 修 iOS 16 标签栏透镜渲染错位；修卸载插件导致的 ElleKit 破坏\n- rootless 包与 roothide 包同步以上改动\n\n#### 版本: 2-0.1.1-2c+island132（roothide）／ +rootless（rootless 测试版）\n- 新增锁屏时钟「液态渐变文字」：五色渐变只染字、不染玻璃（与时钟玻璃共用字形蒙版），可调配色 / 角度 / 浓度 / 呼吸动画，日期·农历行可同步渐变\n- 修复渐变时钟不跟随时钟尺寸变化：改字号、或时钟上方出现障碍物导致高度轴回缩后，渐变会停在旧尺寸\n  （根因：渐变蒙版只在「文字或容器 frame 变化」时才刷新，字形几何变化没进签名）\n- 修复锁屏上拉（上滑 / 进通知中心）时渐变色回退成原色\n  （根因：上拉时字形蒙版从 glass 交给 pullBlur 并隐藏 glass，渐变跟着被藏了 → 现改为跟随「当前正在渲染字形的那块玻璃」）\n- rootless 包与 roothide 包同步以上改动\n\n#### 版本: 2-0.1.1-2c+island130（roothide）／ +rootless（rootless 测试版）\n- 修复 iOS 16 标签栏透镜异常放大：切标签后出现超大椭圆玻璃背景的问题\n  （根因：iOS 16 上跨进程形状遮罩不生效，透镜按整个采样捕获区渲染；iOS 16 及以下改用直出路径）\n- rootless 包同步此修复\n\n#### 版本: 2-0.1.1-2c+island129+rootless（rootless 测试版）\n- 首个 rootless (Dopamine) 格式包，与 roothide 版全功能同步（灵动岛 / 弹窗 / 键盘 / RWB 去白底 全功能）\n- ⚠️ 仅供测试，未真机实践，安装即代表接受未知风险\n\n#### 版本: 2-0.1.1-2c+island129\n- 增加标签栏透镜大小调节，并尝试修复ios16设备透镜问题\n\n#### 版本: 2-0.1.1-2b+island128\n- 修复未汉化部分及重新调整名称\n- 优化插件CPU占用与功耗\n\n#### 版本: 2-0.1.1-2b+island120\n- 修复锁屏日期行玻璃刷新：系统显示瞬态文字（电量 / Face ID 提示）时玻璃跟随，消失后自动回到日期/农历\n- 打包调整：backboardd 换回作者版（island 滤镜 + 完整 shader），修复弹窗 / 长按菜单玻璃发白\n- 移除调试代码\n\n#### 版本: 2-0.1.1-2b+island94\n- 修复灵动岛折射（渲染端挂载 island 滤镜，设置页参数可调）\n\n#### 版本: 2-0.1.1-2b+island82\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃（含「灵动岛」设置页）\n- 新增锁屏日期/农历行液态玻璃\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深\n- 修复卸载插件导致的 ElleKit 破坏\n- 兼容性：已验证 iOS 17.0 / roothide",
+          "markdown": "#### 版本: 2-0.1.1-2c+island136（roothide）／ +rootless（rootless 测试版）\n- 修复锁屏快捷操作在 iOS 17 不生效的 bug\n- rootless 包与 roothide 包同步以上改动\n\n#### 版本: 2-0.1.1-2c+island135（roothide）／ +rootless（rootless 测试版）\n- 新增音量 HUD 液态玻璃（iOS 17）：锚点 `SBElasticVolumeViewController` + `SBElasticSliderView`；\n  玻璃改插进内容视图 `_CCUIBaseSliderContentView` 内部（二十修，经实机逐帧定位后的关键结论），\n  废弃此前「同心放大 + 自定义 mask + 宿主不裁剪」的整套绕法\n  （根因：玻璃一直插在外层滑块，外层 bounds 只有胶囊的 0.76 倍，才派生出内缩线/跳位/白条错位）\n- 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃；\n  白色填充条就地裁成胶囊并降透明度（alpha 0.30），消除拖动时矩形一闪一闪\n- 修 bezel 渲染参数被自身补丁静默打回：阈值放宽到 >22。此前 `v > 12 → 强制写回 7` 会把\n  用户拖的 20 / 40 一并吃掉，是「调参没反应」的真凶（日志实锤 `bezel 修正 40 → 7.0`）\n- 修灵动岛实时活动远端渲染黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）\n- 修 iOS 16 标签栏透镜渲染错位；修卸载插件导致的 ElleKit 破坏\n- rootless 包与 roothide 包同步以上改动\n\n#### 版本: 2-0.1.1-2c+island132（roothide）／ +rootless（rootless 测试版）\n- 新增锁屏时钟「液态渐变文字」：五色渐变只染字、不染玻璃（与时钟玻璃共用字形蒙版），可调配色 / 角度 / 浓度 / 呼吸动画，日期·农历行可同步渐变\n- 修复渐变时钟不跟随时钟尺寸变化：改字号、或时钟上方出现障碍物导致高度轴回缩后，渐变会停在旧尺寸\n  （根因：渐变蒙版只在「文字或容器 frame 变化」时才刷新，字形几何变化没进签名）\n- 修复锁屏上拉（上滑 / 进通知中心）时渐变色回退成原色\n  （根因：上拉时字形蒙版从 glass 交给 pullBlur 并隐藏 glass，渐变跟着被藏了 → 现改为跟随「当前正在渲染字形的那块玻璃」）\n- rootless 包与 roothide 包同步以上改动\n\n#### 版本: 2-0.1.1-2c+island130（roothide）／ +rootless（rootless 测试版）\n- 修复 iOS 16 标签栏透镜异常放大：切标签后出现超大椭圆玻璃背景的问题\n  （根因：iOS 16 上跨进程形状遮罩不生效，透镜按整个采样捕获区渲染；iOS 16 及以下改用直出路径）\n- rootless 包同步此修复\n\n#### 版本: 2-0.1.1-2c+island129+rootless（rootless 测试版）\n- 首个 rootless (Dopamine) 格式包，与 roothide 版全功能同步（灵动岛 / 弹窗 / 键盘 / RWB 去白底 全功能）\n- ⚠️ 仅供测试，未真机实践，安装即代表接受未知风险\n\n#### 版本: 2-0.1.1-2c+island129\n- 增加标签栏透镜大小调节，并尝试修复ios16设备透镜问题\n\n#### 版本: 2-0.1.1-2b+island128\n- 修复未汉化部分及重新调整名称\n- 优化插件CPU占用与功耗\n\n#### 版本: 2-0.1.1-2b+island120\n- 修复锁屏日期行玻璃刷新：系统显示瞬态文字（电量 / Face ID 提示）时玻璃跟随，消失后自动回到日期/农历\n- 打包调整：backboardd 换回作者版（island 滤镜 + 完整 shader），修复弹窗 / 长按菜单玻璃发白\n- 移除调试代码\n\n#### 版本: 2-0.1.1-2b+island94\n- 修复灵动岛折射（渲染端挂载 island 滤镜，设置页参数可调）\n\n#### 版本: 2-0.1.1-2b+island82\n- 新增底部弹窗/App弹窗液态玻璃\n- 新增灵动岛液态玻璃（含「灵动岛」设置页）\n- 新增锁屏日期/农历行液态玻璃\n- 新增锁屏/通知中心“通知清除按钮”液态玻璃\n- 修复锁屏时钟景深\n- 修复卸载插件导致的 ElleKit 破坏\n- 兼容性：已验证 iOS 17.0 / roothide",
           "useSpacing": true
         }
       ]
