@@ -15,10 +15,10 @@ MD5sum: c2d637928093bd414d8d80dab40675a1
 SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: dylv.liquidass
-Name: Liquid (Gl)ass · 泽哥维护版（rootless 测试）
-Version: 2-0.1.1-2c+island136+rootless
+Name: Liquid (Gl)ass 27（rootless 测试）
+Version: 2-0.1.1-2c+island137+rootless
 Architecture: iphoneos-arm64
-Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
@@ -26,16 +26,16 @@ Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
-Filename: debs/dylv.liquidass_2-0.1.1-2c+island136+rootless_iphoneos-arm64.deb
-Size: 3535748
-MD5sum: 4c9e22a9f56e0a3ff552a21c977804db
-SHA256: 49773a3c9971ad6c84f6ca061df8ce6ab6d43d510dfba8404baa5f49db5503ca
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island137+rootless_iphoneos-arm64.deb
+Size: 3630472
+MD5sum: d06739b6e64e5b8572316a8ecc67a752
+SHA256: a8e9249283ab676505bb793fb5cc62b8f3167e07777b74a45b64a98c289b6e0a
 
 Package: dylv.liquidass
-Name: Liquid (Gl)ass · 泽哥维护版
-Version: 2-0.1.1-2c+island136
+Name: Liquid (Gl)ass 27
+Version: 2-0.1.1-2c+island137
 Architecture: iphoneos-arm64e
-Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.html
@@ -43,10 +43,10 @@ Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass.json
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
-Filename: debs/dylv.liquidass_2-0.1.1-2c+island136_iphoneos-arm64e.deb
-Size: 3530232
-MD5sum: e06ad8f4e5904cd84f3831a2aaf1bb6b
-SHA256: 6dfbdab152a28dcd1aa746fc9d5a45b12c48e1e54e6fd259635a165e3e1d2496
+Filename: debs/dylv.liquidass_2-0.1.1-2c+island137_iphoneos-arm64e.deb
+Size: 3631680
+MD5sum: 8636f0db83a2a9afbebca6765ce5aa2c
+SHA256: 204dcd313425fa53ab39f7b637cee719d2e4cc1f9c52f5b03303bd231d645dbc
 
 Package: com.zegeyoudaoli.floatingtabbar
 Name: 半透悬浮底栏
