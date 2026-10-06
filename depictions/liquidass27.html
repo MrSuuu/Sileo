@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Liquid (Gl)ass 27</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 22px 18px 44px;
+    background: #1c1c1e; color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 { font-size: 24px; font-weight: 600; margin: 0 0 14px; letter-spacing: 0.2px; }
+  .desc { font-size: 15px; line-height: 1.65; color: #ebebf5cc; margin-bottom: 30px; white-space: pre-wrap; }
+  .warn { margin-bottom: 26px; padding: 14px 16px; border: 1px solid #ff9f0a55; border-radius: 10px; background: #ff9f0a14; font-size: 14px; line-height: 1.6; color: #ffd48a; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 22px; }
+  .cell .label { font-size: 13px; color: #ebebf599; margin-bottom: 6px; font-weight: 400; }
+  .cell .value { font-size: 22px; color: #ffffff; font-weight: 500; line-height: 1.2; }
+  .footer { margin-top: 38px; padding-top: 18px; border-top: 1px solid #ffffff14; font-size: 12px; color: #ebebf566; text-align: center; }
+</style>
+</head>
+<body>
+  <h1>Liquid (Gl)ass 27</h1>
+  <div class="warn">⚠️ 本源提供两种格式的包，Sileo 按你的越狱类型自动显示对应的一个。<br>rootless (Dopamine) 版<b>仅供测试，未真机实践，安装即代表接受未知风险</b>。<br><b>部分 iOS 16 设备上本版存在兼容问题</b> —— 那些设备请改装 <b>Liquid (Gl)ass · 泽哥维护兼容版</b>（冻结在 island136）。</div>
+  <div class="desc">## Liquid (Gl)ass 27
+基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+
+### 本版改动
+- 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+- 新增更多可调参数
+- 新增全界面导航栏液态玻璃
+- 新增底部弹窗 / App 弹窗液态玻璃
+- 新增灵动岛液态玻璃（上岛全元素液态）
+- 新增「灵动岛」设置页面
+- 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+- 新增锁屏“通知清除按钮”透明化
+- 新增锁屏“通知中心”文字直接隐藏
+- 新增锁屏时钟 / 日期渐变色
+- 新增音量 HUD 液态玻璃
+- 修复锁屏时钟景深效果
+- 修复锁屏场景下灵动岛取不到子视图的问题
+- 修复 iOS 16 设备标签栏透镜渲染错位问题
+- 修复灵动岛实时活动远端渲染黑块问题
+- 修复标签栏文字闪烁的 bug
+- 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+
+### 关于版本线（2026-10-07 起分家）
+**这是新引擎线。** 渲染引擎重写、对标 iOS 27，在 iOS 17 上前景更好；
+但在**部分 iOS 16 设备上存在兼容问题** —— 那些设备请改装
+**「Liquid (Gl)ass · 泽哥维护兼容版」**（包名 `dylv.liquidass`，冻结在 island136）。
+
+包名已由 `dylv.liquidass` 改为 `com.zegeyoudaoli.liquidass27`，与旧线是两个独立插件：
+装了旧线**不会自动收到本线更新**，需要重新安装本包（安装时会提示替换旧包）。
+两个包不能同时安装。
+
+### 兼容性
+已验证：iOS 17.0 (roothide / Relaxin 越狱)
+
+理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过）
+
+### 设备 / 架构
+arm64 + arm64e 双切片，覆盖 A8 及更新机型
+
+### 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）
+- roothide (Relaxin) —— 已验证 ✅
+- rootless (Dopamine 等) —— 代码兼容，但本包是 roothide 格式，需另出 rootless 格式的包才能装 ⚠️
+- rootful (palera1n + ellekit) —— 理论支持 ⚠️
+- unc0ver / checkra1n (Substitute) 不支持 ❌</div>
+  <div class="grid">
+    <div class="cell"><div class="label">作者</div><div class="value">dylv&amp;泽哥</div></div>
+    <div class="cell"><div class="label">更新日期</div><div class="value">2026/10/07 01:10:00</div></div>
+    <div class="cell"><div class="label">版本</div><div class="value">island137.1（roothide / rootless 两种格式）</div></div>
+    <div class="cell"><div class="label">大小</div><div class="value">3.5 MB</div></div>
+    <div class="cell"><div class="label">下载次数</div><div class="value">—</div></div>
+    <div class="cell"><div class="label">系统兼容</div><div class="value">iOS 14.0 – 18.x（已验证 17.0）</div></div>
+  </div>
+  <div class="footer">泽哥源 · 静态托管 · 下载次数暂不统计</div>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Liquid (Gl)ass 27</title>
+<title>Liquid (Gl)ass · 泽哥维护兼容版</title>
 <style>
   * { box-sizing: border-box; }
   body {
@@ -22,47 +22,51 @@
 </style>
 </head>
 <body>
-  <h1>Liquid (Gl)ass 27</h1>
-  <div class="warn">⚠️ 本源提供两种格式的包，Sileo 按你的越狱类型自动显示对应的一个。<br>rootless (Dopamine) 版<b>仅供测试，未真机实践，安装即代表接受未知风险</b>。</div>
-  <div class="desc">## Liquid (Gl)ass 27
-基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+  <h1>Liquid (Gl)ass · 泽哥维护兼容版</h1>
+  <div class="warn">⚠️ 这是 <b>iOS 16 兼容线</b>，已冻结在 island136，<b>不再接收更新</b>。<br>想要新引擎（对标 iOS 27、更多可调参数）请装另一个插件：<b>Liquid (Gl)ass 27</b>（包名 com.zegeyoudaoli.liquidass27）。<br>两个包不能同时安装，装新的会替换掉这个。</div>
+  <div class="desc">## Liquid (Gl)ass · 泽哥维护兼容版
+基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 
-### 本版改动
-- 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
-- 新增更多可调参数
-- 新增全界面导航栏液态玻璃
-- 新增底部弹窗 / App 弹窗液态玻璃
-- 新增灵动岛液态玻璃（上岛全元素液态）
-- 新增「灵动岛」设置页面
-- 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
-- 新增锁屏“通知清除按钮”透明化
-- 新增锁屏“通知中心”文字直接隐藏
-- 新增锁屏时钟 / 日期渐变色
-- 新增音量 HUD 液态玻璃
+**这是兼容线，已经停更。** 最后一个版本是 island136。
+新引擎线（渲染引擎重写、对标 iOS 27、更多可调参数）已另立为独立插件
+**「Liquid (Gl)ass 27」**，包名 `com.zegeyoudaoli.liquidass27`。
+之所以分家：新引擎在部分 iOS 16 设备上存在兼容问题，这条老线留在原地给老设备用。
+两个包**不能同时安装**（装新的会替换掉这个）。
+
+两种格式的包（Sileo 按你的越狱类型自动显示对应的一个）
+- **roothide (Relaxin)**：版本 `2-0.1.1-2c+island136`（已真机验证 ✅）
+- **rootless (Dopamine 等)**：版本 `2-0.1.1-2c+island136+rootless`（**仅供测试，未真机实践，安装即代表接受未知风险**）
+
+### 本版的改动
+- 新增底部弹窗/App弹窗液态玻璃
+- 新增灵动岛液态玻璃：基于作者渲染方式，壁纸实时采样，展开/收起动画全程几何跟随，并新增「灵动岛」设置页面
+- 新增锁屏日期/农历行液态玻璃（跟随时钟效果）
+- 新增锁屏/通知中心“通知清除按钮”液态玻璃
+- 新增锁屏时钟/日期渐变色
+- 新增音量HUD液态玻璃
 - 修复锁屏时钟景深效果
 - 修复锁屏场景下灵动岛取不到子视图的问题
-- 修复 iOS 16 设备标签栏透镜渲染错位问题
+- 修复卸载插件导致的 ElleKit 破坏
+- 修复ios16设备标签栏透镜渲染错位问题
 - 修复灵动岛实时活动远端渲染黑块问题
-- 修复标签栏文字闪烁的 bug
 
 ### 兼容性
-已验证：iOS 17.0 (roothide / Relaxin 越狱)
-
-理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过）
+- 已验证：iOS 17.0 (roothide / Relaxin 越狱)
+- 理论支持、未实测：iOS 14 / 15 / 16 / 18（源码有对应分支：14/15 走 legacy 渲染路径，16 有灵动岛，iOS 18+ 有部分分支，但未在任何真机验证过）
 
 ### 设备 / 架构
-arm64 + arm64e 双切片，覆盖 A8 及更新机型
+- arm64 + arm64e 双切片，覆盖 A8 及更新机型
 
 ### 越狱环境（依赖 ellekit，不依赖 mobilesubstrate）
 - roothide (Relaxin) —— 已验证 ✅
-- rootless (Dopamine 等) —— 代码兼容，但本包是 roothide 格式，需另出 rootless 格式的包才能装 ⚠️
+- rootless (Dopamine 等) —— 已出对应格式包 ⚠️（未真机实践）
 - rootful (palera1n + ellekit) —— 理论支持 ⚠️
 - unc0ver / checkra1n (Substitute) 不支持 ❌</div>
   <div class="grid">
-    <div class="cell"><div class="label">开发者</div><div class="value">dylv&泽哥</div></div>
-    <div class="cell"><div class="label">更新时间</div><div class="value">2026/10/06 12:01:01</div></div>
-    <div class="cell"><div class="label">当前版本</div><div class="value">island137（roothide / rootless 两种格式）</div></div>
-    <div class="cell"><div class="label">插件大小</div><div class="value">3.5 MB</div></div>
+    <div class="cell"><div class="label">作者</div><div class="value">dylv&amp;泽哥</div></div>
+    <div class="cell"><div class="label">更新日期</div><div class="value">2026/10/03 11:10:17</div></div>
+    <div class="cell"><div class="label">版本</div><div class="value">island136（roothide / rootless 两种格式）</div></div>
+    <div class="cell"><div class="label">大小</div><div class="value">3.4 MB</div></div>
     <div class="cell"><div class="label">下载次数</div><div class="value">—</div></div>
     <div class="cell"><div class="label">系统兼容</div><div class="value">iOS 14.0 – 18.x（已验证 17.0）</div></div>
   </div>

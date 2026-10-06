@@ -180,8 +180,14 @@ def build_packages_text(debs_dir: Path) -> str:
             stem = info.get('Package','?').split('.')[-1]
             info['Depiction']       = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.html'
             info['Sileodepiction']  = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.json'
+            # ⚠️ Conflicts / Replaces / Provides 必须写进索引（2026-10-07 加）：
+            #   之前这份白名单漏了它们，导致插件的 Replaces/Conflicts 在 Sileo 侧完全不生效
+            #   —— 换了包名的新包与旧包共用同一批 dylib 路径，索引里不声明冲突的话，
+            #   用户装新包时 dpkg 会在设备上报 "trying to overwrite ... which is also in
+            #   package dylv.liquidass"，装不上又看不懂。声明后 Sileo 会明说「将移除旧包」。
             for key in ["Package", "Name", "Version", "Architecture", "Description",
                         "Maintainer", "Author", "Depiction", "Sileodepiction", "Section", "Depends",
+                        "Provides", "Conflicts", "Replaces",
                         "Icon", "Filename", "Size"]:
                 if key in info:
                     lines.append(f"{key}: {info[key]}")
