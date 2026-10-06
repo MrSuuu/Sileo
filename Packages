@@ -16,7 +16,7 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27（rootless 测试）
-Version: 2-0.1.1-2c+island137.1+rootless
+Version: 1.0.0-0+rootless
 Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
@@ -27,15 +27,15 @@ Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
-Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
-Filename: debs/com.zegeyoudaoli.liquidass27_2-0.1.1-2c+island137.1+rootless_iphoneos-arm64.deb
-Size: 3631860
-MD5sum: 3818d3b9946e48589119e8065dfb1678
-SHA256: f352479134d2259a92c25c3ff057d829e3533e9eba49145ea23ec6300b43cc8e
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-0+rootless_iphoneos-arm64.deb
+Size: 3490970
+MD5sum: 0827ebb1437aaa6d8b5078d860b326b2
+SHA256: 278fda7b8a23ef504e2f39607654d99f42938198c61dddd0c544f4eb96e66ffb
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27
-Version: 2-0.1.1-2c+island137.1
+Version: 1.0.0-0
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
@@ -46,11 +46,11 @@ Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
-Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
-Filename: debs/com.zegeyoudaoli.liquidass27_2-0.1.1-2c+island137.1_iphoneos-arm64e.deb
-Size: 3636618
-MD5sum: 3a859f6ec4bc4bf87ae03bc7cd72cd59
-SHA256: 76a30a9c4db6974561fb4e76a8ca2aba1f54106761128839efecd6858dfe44d2
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-0_iphoneos-arm64e.deb
+Size: 3489584
+MD5sum: 0e12b69e27ff866610c3229680079288
+SHA256: 100611f250a119e0017ffe9031f8291a24cfe6e95dc0f0be618845db9eb179ed
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）
