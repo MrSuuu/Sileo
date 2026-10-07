@@ -45,6 +45,16 @@
 - 修复灵动岛实时活动远端渲染黑块问题
 - 修复标签栏文字闪烁的 bug
 - 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+- 修复总开关关闭后，插件自己的设置页面板（返回按钮 / 回弹条 / 回到顶部 / 液态开关与滑块）仍然保持液态的问题（渲染层的总开关兜底 + 控件退化成原生观感）：
+  根因：插件玻璃门控有三套机制，注册式与各直建式都读过总开关（Global.Enabled），唯独 LiquidAssPrefs/ 整个目录 0 处门控 —— 面板里 5 处玻璃全部自己 `[[LGLiveBackdropView alloc] init…]`，不经过注册式路径，于是总开关关了它们照旧渲染。
+  改法：只在唯一的渲染闸点 LGLiveBackdropView 的 `updateSpecular` / `applyFilters` 处早退兜底（命中即 teardown 已产生的滤镜 / 模糊底 / 高光 / 边缘层），并把开关 / 滑块 / 返回按钮 / 回弹条按总开关退化成原生观感。
+- 修复日志写入长期持有文件句柄、且多进程共用同一个日志文件，导致 Spotlight / 设置 / 小组件扩展等进程被系统判定「挂起时持有文件锁」而反复强杀的问题（改为写完即关 + O_APPEND 原子追加）：
+  根因：`LGAppendLogLine` 用 static 常驻一个 `NSFileHandle`，且除 Safari 外所有注入进程都往
+  `/var/mobile/Library/Accessibility/liquidglass.log` 这同一个文件写 ⇒ 每个进程长期攥着同一 vnode；
+  RUNNINGBOARD 一旦发现进程挂起时仍持有 vnode / 文件锁就直接强杀（`termination.code = 0xDEAD10CC`），或以 `EXC_GUARD / GUARD_TYPE_USER` 报异常。
+  设备侧佐证：CrashReporter 里 `ExcUserFault_Spotlight-*` / `ExcUserFault_Preferences-*` 高频出现，
+  `MiHomeDesktopWidgetExtension` 同为 0xDEAD10CC。改成 `open(O_APPEND) → write → close`，
+  写完立刻释放、不常驻任何句柄；顺带修掉原「先 seekToEnd 再 write」的并发覆盖竞态。
 
 ### 关于版本线（2026-10-07 起分家）
 **这是新引擎线。** 渲染引擎重写、对标 iOS 27，在 iOS 17 上前景更好；
@@ -70,8 +80,8 @@ arm64 + arm64e 双切片，覆盖 A8 及更新机型
 - unc0ver / checkra1n (Substitute) 不支持 ❌</div>
   <div class="grid">
     <div class="cell"><div class="label">作者</div><div class="value">dylv&amp;泽哥</div></div>
-    <div class="cell"><div class="label">更新日期</div><div class="value">2026/10/07 01:10:00</div></div>
-    <div class="cell"><div class="label">版本</div><div class="value">1.0.0-0（roothide / rootless 两种格式）</div></div>
+    <div class="cell"><div class="label">更新日期</div><div class="value">2026/10/07 12:29:00</div></div>
+    <div class="cell"><div class="label">版本</div><div class="value">1.0.0-7（roothide / rootless 两种格式）</div></div>
     <div class="cell"><div class="label">大小</div><div class="value">3.5 MB</div></div>
     <div class="cell"><div class="label">下载次数</div><div class="value">—</div></div>
     <div class="cell"><div class="label">系统兼容</div><div class="value">iOS 16.0 – 17.3.1（已验证 17.0）</div></div>
