@@ -173,13 +173,19 @@ def sha256_hex(path: Path) -> str:
     return h.hexdigest()
 
 def build_packages_text(debs_dir: Path) -> str:
+    # depiction 修订号：depiction(json/html) 或其引用的图片内容变更后 +1。
+    # Sileo 按「URL」缓存 depiction 与图片，包版本号不变就不重拉
+    # ⇒ 改了 depiction 内容必须换 URL（追加 ?v=N），否则设备上永远显示旧版
+    # （2026-10-08：封面/截图加进 json 后设备不显示，就是这个原因）
+    depiction_rev = {'liquidass27': '2'}
     lines = []
     for deb in sorted(debs_dir.glob("*.deb")):
         try:
             info = parse_deb_control(deb)
             stem = info.get('Package','?').split('.')[-1]
-            info['Depiction']       = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.html'
-            info['Sileodepiction']  = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.json'
+            q = f"?v={depiction_rev[stem]}" if stem in depiction_rev else ""
+            info['Depiction']       = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.html{q}'
+            info['Sileodepiction']  = f'https://MrSuuu.github.io/Sileo/depictions/{stem}.json{q}'
             # ⚠️ Conflicts / Replaces / Provides 必须写进索引（2026-10-07 加）：
             #   之前这份白名单漏了它们，导致插件的 Replaces/Conflicts 在 Sileo 侧完全不生效
             #   —— 换了包名的新包与旧包共用同一批 dylib 路径，索引里不声明冲突的话，
