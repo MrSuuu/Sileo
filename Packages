@@ -15,6 +15,25 @@ MD5sum: c2d637928093bd414d8d80dab40675a1
 SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.liquidass27
+Name: Liquid (Gl)ass 27（rootless 测试）
+Version: 1.0.0-34+rootless
+Architecture: iphoneos-arm64
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-34+rootless_iphoneos-arm64.deb
+Size: 3565438
+MD5sum: 43a677964ddc23230f5a5519e8c48d48
+SHA256: 5f3ad0bfb3ff3a456ffdc911ed8468ee8fbbecaf3ea85708ac2ea17f648c0ac5
+
+Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27
 Version: 1.0.0-34
 Architecture: iphoneos-arm64e
@@ -32,25 +51,6 @@ Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-34_iphoneos-arm64e.deb
 Size: 3571656
 MD5sum: b60723633594e6bc55ab84decb07348d
 SHA256: 8918623d9e581212a464dbeef08813e45734c31e7c634df34563fa90094eef3c
-
-Package: com.zegeyoudaoli.liquidass27
-Name: Liquid (Gl)ass 27（rootless 测试）
-Version: 1.0.0-7+rootless
-Architecture: iphoneos-arm64
-Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
-Maintainer: dylv&泽哥
-Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
-Section: Tweaks
-Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
-Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
-Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
-Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
-Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-7+rootless_iphoneos-arm64.deb
-Size: 3496468
-MD5sum: 580c9cae61c6d3f97b9f250f6407a687
-SHA256: 971685cf4b03efbda4acbb4d94935aab60b8d53f8f3e09f0348c5563f1d8297c
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）
