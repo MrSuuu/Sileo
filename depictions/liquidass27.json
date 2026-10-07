@@ -9,9 +9,12 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "url": "https://MrSuuu.github.io/Sileo/depictions/liquidass27-cover-v4.jpg",
-          "width": 1000,
-          "height": 530
+          "URL": "https://MrSuuu.github.io/Sileo/depictions/liquidass27-cover-v4.jpg",
+          "width": 390,
+          "height": 207,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
         },
         {
           "class": "DepictionMarkdownView",
