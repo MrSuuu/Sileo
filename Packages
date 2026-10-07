@@ -19,8 +19,15 @@ Name: Liquid (Gl)ass 27
 Version: 1.0.0-34
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
 Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
 Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-34_iphoneos-arm64e.deb
 Size: 3571656
 MD5sum: b60723633594e6bc55ab84decb07348d
