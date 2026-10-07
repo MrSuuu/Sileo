@@ -8,6 +8,10 @@
       "tabname": "描述",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
           "class": "DepictionImageView",
           "URL": "https://MrSuuu.github.io/Sileo/depictions/liquidass27-cover-v4.jpg",
           "width": 390,
@@ -15,10 +19,6 @@
           "cornerRadius": 12,
           "alignment": 1,
           "xPadding": 0
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 16
         },
         {
           "class": "DepictionMarkdownView",

@@ -21,8 +21,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=8
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=8
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=9
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=9
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -40,8 +40,8 @@ Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=8
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=8
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=9
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=9
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
