@@ -29,7 +29,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "2.1.45"
+     "text": "2.1.46"
     },
     {
      "class": "DepictionTableTextView",
@@ -39,7 +39,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "更新日期",
-     "text": "2026/10/10 03:47:28"
+     "text": "2026/10/10 04:15:11"
     },
     {
      "class": "DepictionTableTextView",
@@ -52,6 +52,11 @@
    "class": "DepictionStackView",
    "tabname": "更新日志",
    "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "#### 版本: 2.1.46（默认风格修复 + 清理）\n- 修复「默认」风格下部分图标被画成「透明版」、以及「透明」风格个别图标逐轮退化：根因是图标视图兜底链把**自己的成品**当输入回灌，形成自我投喂循环；现已改为绝不回灌（靠来源标记判定）+ 输入健康检查 + 一次延迟重试。\n- 「默认」风格：输入没有自己的底（形状图标 / 去背图）时自动垫白卡，观感与系统图标一致。\n- 「图标包优先级」列表不再显示内置的 SolidGlass（它随安装包装载、不是用户导入的包；引擎仍把它作为最后一级回退，功能不变）。\n- 缓存换代（v63）自动重绘；已安装用户升级后无需额外操作。\n- roothide 与 rootless 两种格式同步更新。",
+     "useSpacing": true
+    },
     {
      "class": "DepictionMarkdownView",
      "markdown": "#### 版本: 2.1.45（空白图标修复）\n- 修复「透明」风格下部分 App 图标渲染成空白的问题。\n- 根因：系统偶发把过渡帧当图标图交给插件（整幅半透明或纯黑空卡），去背景后近空白；且缓存不含输入指纹，写盘一次就永久生效。\n- 现在这类退化输入不再写缓存（能救的应急显示、输入恢复后自动重渲染），并全员换代缓存键强制重绘。\n- roothide 与 rootless 两种格式同步更新。",
