@@ -29,7 +29,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "2.1.44"
+     "text": "2.1.45"
     },
     {
      "class": "DepictionTableTextView",
@@ -39,7 +39,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "更新日期",
-     "text": "2026/10/09 14:48:25"
+     "text": "2026/10/10 03:47:28"
     },
     {
      "class": "DepictionTableTextView",
@@ -52,6 +52,11 @@
    "class": "DepictionStackView",
    "tabname": "更新日志",
    "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "#### 版本: 2.1.45（空白图标修复）\n- 修复「透明」风格下部分 App 图标渲染成空白的问题。\n- 根因：系统偶发把过渡帧当图标图交给插件（整幅半透明或纯黑空卡），去背景后近空白；且缓存不含输入指纹，写盘一次就永久生效。\n- 现在这类退化输入不再写缓存（能救的应急显示、输入恢复后自动重渲染），并全员换代缓存键强制重绘。\n- roothide 与 rootless 两种格式同步更新。",
+     "useSpacing": true
+    },
     {
      "class": "DepictionMarkdownView",
      "markdown": "#### 版本: 2.1.43（首发）\n- 基于 26Home（ngkhoi）的汉化维护版，全中文界面。\n- 修复部分设备启动崩溃（安全模式）与注销后玻璃模式不保持等问题。\n- 设置页重构：署名区、越狱源入口。\n- 日志改为手动开关：默认零写盘，打开「调试日志」后才记录。",

@@ -177,7 +177,7 @@ def build_packages_text(debs_dir: Path) -> str:
     # Sileo 按「URL」缓存 depiction 与图片，包版本号不变就不重拉
     # ⇒ 改了 depiction 内容必须换 URL（追加 ?v=N），否则设备上永远显示旧版
     # （2026-10-08：封面/截图加进 json 后设备不显示，就是这个原因）
-    depiction_rev = {'liquidass27': '9', 'home27': '2'}
+    depiction_rev = {'liquidass27': '9', 'home27': '3'}
     lines = []
     for deb in sorted(debs_dir.glob("*.deb")):
         try:
