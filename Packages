@@ -16,39 +16,41 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home（rootless 测试）
-Version: 2.1.43-linedesc+rootless
+Version: 2.1.44-icon+rootless
 Architecture: iphoneos-arm64
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=1
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=1
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=2
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=2
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
-Filename: debs/com.zegeyoudaoli.home27_2.1.43-linedesc+rootless_iphoneos-arm64.deb
-Size: 20171586
-MD5sum: 8c50d877de05cb2078efa22aab909857
-SHA256: b996153736a319c3c0f5baa0e8c4cd63f77b3761470acbc8e3886e83e66737d6
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+Filename: debs/com.zegeyoudaoli.home27_2.1.44-icon+rootless_iphoneos-arm64.deb
+Size: 20171754
+MD5sum: 5756f094dae2185808995e99cd35d633
+SHA256: 583a5c6e5f33d04b0b8436eea63f0dc69ebbed48f11493ce634605578a61e9db
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home
-Version: 2.1.43-linedesc
+Version: 2.1.44-icon
 Architecture: iphoneos-arm64e
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=1
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=1
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=2
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=2
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
-Filename: debs/com.zegeyoudaoli.home27_2.1.43-linedesc_iphoneos-arm64e.deb
-Size: 20651204
-MD5sum: 3b37865bd2880037147fbdccda824ffc
-SHA256: 484f555c6bfe2b8038988591a4dcd5c4efa63e2dc7838b7ae1c01a6faafd8306
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+Filename: debs/com.zegeyoudaoli.home27_2.1.44-icon_iphoneos-arm64e.deb
+Size: 20651232
+MD5sum: f9ea3f38f1a3d7525305a04ee3216d0f
+SHA256: d3ee63a5ab47c87e474d1ef6c2344af5e3592de1e821f61cc77926ef2ca96add
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27（rootless 测试）
