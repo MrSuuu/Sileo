@@ -1,0 +1,63 @@
+{
+ "class": "DepictionTabView",
+ "minVersion": "0.3",
+ "tintColor": "#5856D6",
+ "tabs": [
+  {
+   "class": "DepictionStackView",
+   "tabname": "描述",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "## 27Home\n主屏幕图标美化工具\n基于 ngkhoi 的 26Home 汉化维护版。\n\n- 液态玻璃图标\n- 接 LiquidAss 引擎真折射\n- 未装 LiquidAss 时走零依赖普通玻璃\n- 所有效果参数可调\n- 支持相册自定义图标和例外应用\n- 图标包管理器，直连 SnowBoard 本地主题（实时生效）\n- 新增本地压缩包一键导入",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionHeaderView",
+     "title": "信息",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "作者",
+     "text": "ngkhoi & 泽哥有道理"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "版本",
+     "text": "2.1.43"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "支持系统",
+     "text": "iOS 16.0 – 17.3.1"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "更新日期",
+     "text": "2026/10/09 14:48:25"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "大小",
+     "text": "19.7 MB"
+    }
+   ]
+  },
+  {
+   "class": "DepictionStackView",
+   "tabname": "更新日志",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "#### 版本: 2.1.43（首发）\n- 基于 26Home（ngkhoi）的汉化维护版，全中文界面。\n- 修复部分设备启动崩溃（安全模式）与注销后玻璃模式不保持等问题。\n- 设置页重构：署名区、越狱源入口。\n- 日志改为手动开关：默认零写盘，打开「调试日志」后才记录。",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
