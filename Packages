@@ -16,41 +16,41 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home（rootless 测试）
-Version: 2.1.46-loopfix+rootless
+Version: 2.1.47-cleanpack+rootless
 Architecture: iphoneos-arm64
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=4
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=4
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=5
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=5
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
-Filename: debs/com.zegeyoudaoli.home27_2.1.46-loopfix+rootless_iphoneos-arm64.deb
-Size: 20175958
-MD5sum: cfb7c49d76566117ead2a1d0ef039a71
-SHA256: 5e81b8893686f04b48da43f4ec4b6d7f47ce948291f4492193dda753b6543a64
+Filename: debs/com.zegeyoudaoli.home27_2.1.47-cleanpack+rootless_iphoneos-arm64.deb
+Size: 600514
+MD5sum: 8191cb82619f7cb92a6532a9ddb9221c
+SHA256: 66161e95a78f592751bfbeb2303def7544d9e2daab9d19387912971bb323af1f
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home
-Version: 2.1.46-loopfix
+Version: 2.1.47-cleanpack
 Architecture: iphoneos-arm64e
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=4
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=4
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=5
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=5
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
-Filename: debs/com.zegeyoudaoli.home27_2.1.46-loopfix_iphoneos-arm64e.deb
-Size: 20656104
-MD5sum: b4826524b6b369dd37abaa8f5a863818
-SHA256: 8f682a1cc5a26829351e74ee81d6ea3eaefe8b020d4e6ccd6d800ed9ab6650d6
+Filename: debs/com.zegeyoudaoli.home27_2.1.47-cleanpack_iphoneos-arm64e.deb
+Size: 601244
+MD5sum: 8478a8b0abc66969bad8904c6f0723db
+SHA256: b303a0d8eb57d3adc88a2417e3365068fc2653767ad9480ffafa22aaefc22063
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27（rootless 测试）

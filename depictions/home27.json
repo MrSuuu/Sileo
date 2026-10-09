@@ -29,7 +29,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "版本",
-     "text": "2.1.46"
+     "text": "2.1.47"
     },
     {
      "class": "DepictionTableTextView",
@@ -39,12 +39,12 @@
     {
      "class": "DepictionTableTextView",
      "title": "更新日期",
-     "text": "2026/10/10 04:15:11"
+     "text": "2026/10/10 04:27:45"
     },
     {
      "class": "DepictionTableTextView",
      "title": "大小",
-     "text": "19.7 MB"
+     "text": "0.6 MB"
     }
    ]
   },
@@ -52,6 +52,11 @@
    "class": "DepictionStackView",
    "tabname": "更新日志",
    "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "#### 版本: 2.1.47（安装包瘦身）\n- 内置图标包 SolidGlass 已整条从安装包移除（现在都用本地 / 导入的图标包）。\n- 升级时自动清理设备上的残留（含旧版脚本复制出来的那一份），「图标包优先级」里不再出现它。\n- 效果：安装包 20.6 MB → 0.6 MB，安装占用减少约 17 MB；没有本地图标包时，图标直接由系统原图渲染。\n- roothide 与 rootless 两种格式同步更新。",
+     "useSpacing": true
+    },
     {
      "class": "DepictionMarkdownView",
      "markdown": "#### 版本: 2.1.46（默认风格修复 + 清理）\n- 修复「默认」风格下部分图标被画成「透明版」、以及「透明」风格个别图标逐轮退化：根因是图标视图兜底链把**自己的成品**当输入回灌，形成自我投喂循环；现已改为绝不回灌（靠来源标记判定）+ 输入健康检查 + 一次延迟重试。\n- 「默认」风格：输入没有自己的底（形状图标 / 去背图）时自动垫白卡，观感与系统图标一致。\n- 「图标包优先级」列表不再显示内置的 SolidGlass（它随安装包装载、不是用户导入的包；引擎仍把它作为最后一级回退，功能不变）。\n- 缓存换代（v63）自动重绘；已安装用户升级后无需额外操作。\n- roothide 与 rootless 两种格式同步更新。",
