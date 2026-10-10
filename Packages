@@ -16,7 +16,7 @@ SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home（rootless 测试）
-Version: 2.1.47-cleanpack+rootless
+Version: 2.1.50-cleanpack+rootless
 Architecture: iphoneos-arm64
 Description: 27Home
 Maintainer: ngkhoi&泽哥
@@ -28,10 +28,10 @@ Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
-Filename: debs/com.zegeyoudaoli.home27_2.1.47-cleanpack+rootless_iphoneos-arm64.deb
-Size: 600514
-MD5sum: 8191cb82619f7cb92a6532a9ddb9221c
-SHA256: 66161e95a78f592751bfbeb2303def7544d9e2daab9d19387912971bb323af1f
+Filename: debs/com.zegeyoudaoli.home27_2.1.50-cleanpack+rootless_iphoneos-arm64.deb
+Size: 599798
+MD5sum: f9367f54348931ae172cdf6b5280997f
+SHA256: 0ba60223bf1aaee5ed8b89c09b757fe61fed03f398e403fb28eeaf0e20173674
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home
