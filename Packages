@@ -21,8 +21,8 @@ Architecture: iphoneos-arm64
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=5
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=5
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=6
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=6
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
@@ -35,22 +35,22 @@ SHA256: 66161e95a78f592751bfbeb2303def7544d9e2daab9d19387912971bb323af1f
 
 Package: com.zegeyoudaoli.home27
 Name: 27Home
-Version: 2.1.47-cleanpack
+Version: 2.1.50-cleanpack
 Architecture: iphoneos-arm64e
 Description: 27Home
 Maintainer: ngkhoi&泽哥
 Author: ngkhoi&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=5
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=5
+Depiction: https://MrSuuu.github.io/Sileo/depictions/home27.html?v=6
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/home27.json?v=6
 Section: Tweaks
 Depends: mobilesubstrate | ellekit, preferenceloader
 Conflicts: com.ngkhoi.26home
 Replaces: com.ngkhoi.26home
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
-Filename: debs/com.zegeyoudaoli.home27_2.1.47-cleanpack_iphoneos-arm64e.deb
-Size: 601244
-MD5sum: 8478a8b0abc66969bad8904c6f0723db
-SHA256: b303a0d8eb57d3adc88a2417e3365068fc2653767ad9480ffafa22aaefc22063
+Filename: debs/com.zegeyoudaoli.home27_2.1.50-cleanpack_iphoneos-arm64e.deb
+Size: 600954
+MD5sum: d17fc756a42567db76cda0f5a78f1252
+SHA256: 2f4537f2c6564f9f2cd845127a1f5efe07139887c3db6edd7ee179b6fb464d59
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27（rootless 测试）

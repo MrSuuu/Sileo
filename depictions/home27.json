@@ -1,78 +1,83 @@
 {
- "class": "DepictionTabView",
- "minVersion": "0.3",
- "tintColor": "#5856D6",
- "tabs": [
-  {
-   "class": "DepictionStackView",
-   "tabname": "描述",
-   "views": [
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
     {
-     "class": "DepictionMarkdownView",
-     "markdown": "## 27Home\n主屏幕图标美化工具\n基于 ngkhoi 的 26Home 汉化维护版。\n\n- 液态玻璃图标\n- 接 LiquidAss 引擎真折射\n- 未装 LiquidAss 时走零依赖普通玻璃\n- 所有效果参数可调\n- 支持相册自定义图标和例外应用\n- 图标包管理器，直连 SnowBoard 本地主题（实时生效）\n- 新增本地压缩包一键导入",
-     "useSpacing": true
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 27Home\n主屏幕图标美化工具\n基于 ngkhoi 的 26Home 汉化维护版。\n\n- 液态玻璃图标\n- 接 LiquidAss 引擎真折射\n- 未装 LiquidAss 时走零依赖普通玻璃\n- 所有效果参数可调\n- 支持相册自定义图标和例外应用\n- 图标包管理器，直连 SnowBoard 本地主题（实时生效）\n- 新增本地压缩包一键导入",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "ngkhoi & 泽哥有道理"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "2.1.50"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 16.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/10/10 19:56:21"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "0.6 MB"
+        }
+      ]
     },
     {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionHeaderView",
-     "title": "信息",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "作者",
-     "text": "ngkhoi & 泽哥有道理"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "版本",
-     "text": "2.1.47"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "支持系统",
-     "text": "iOS 16.0 – 17.3.1"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "更新日期",
-     "text": "2026/10/10 04:27:45"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "大小",
-     "text": "0.6 MB"
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.50\n- 修复卡顿问题。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.47（安装包瘦身）\n- 内置图标包 SolidGlass 已整条从安装包移除（现在都用本地 / 导入的图标包）。\n- 升级时自动清理设备上的残留（含旧版脚本复制出来的那一份），「图标包优先级」里不再出现它。\n- 效果：安装包 20.6 MB → 0.6 MB，安装占用减少约 17 MB；没有本地图标包时，图标直接由系统原图渲染。\n- roothide 与 rootless 两种格式同步更新。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.46（默认风格修复 + 清理）\n- 修复「默认」风格下部分图标被画成「透明版」、以及「透明」风格个别图标逐轮退化：根因是图标视图兜底链把**自己的成品**当输入回灌，形成自我投喂循环；现已改为绝不回灌（靠来源标记判定）+ 输入健康检查 + 一次延迟重试。\n- 「默认」风格：输入没有自己的底（形状图标 / 去背图）时自动垫白卡，观感与系统图标一致。\n- 「图标包优先级」列表不再显示内置的 SolidGlass（它随安装包装载、不是用户导入的包；引擎仍把它作为最后一级回退，功能不变）。\n- 缓存换代（v63）自动重绘；已安装用户升级后无需额外操作。\n- roothide 与 rootless 两种格式同步更新。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.45（空白图标修复）\n- 修复「透明」风格下部分 App 图标渲染成空白的问题。\n- 根因：系统偶发把过渡帧当图标图交给插件（整幅半透明或纯黑空卡），去背景后近空白；且缓存不含输入指纹，写盘一次就永久生效。\n- 现在这类退化输入不再写缓存（能救的应急显示、输入恢复后自动重渲染），并全员换代缓存键强制重绘。\n- roothide 与 rootless 两种格式同步更新。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.43（首发）\n- 基于 26Home（ngkhoi）的汉化维护版，全中文界面。\n- 修复部分设备启动崩溃（安全模式）与注销后玻璃模式不保持等问题。\n- 设置页重构：署名区、越狱源入口。\n- 日志改为手动开关：默认零写盘，打开「调试日志」后才记录。",
+          "useSpacing": true
+        }
+      ]
     }
-   ]
-  },
-  {
-   "class": "DepictionStackView",
-   "tabname": "更新日志",
-   "views": [
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "#### 版本: 2.1.47（安装包瘦身）\n- 内置图标包 SolidGlass 已整条从安装包移除（现在都用本地 / 导入的图标包）。\n- 升级时自动清理设备上的残留（含旧版脚本复制出来的那一份），「图标包优先级」里不再出现它。\n- 效果：安装包 20.6 MB → 0.6 MB，安装占用减少约 17 MB；没有本地图标包时，图标直接由系统原图渲染。\n- roothide 与 rootless 两种格式同步更新。",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "#### 版本: 2.1.46（默认风格修复 + 清理）\n- 修复「默认」风格下部分图标被画成「透明版」、以及「透明」风格个别图标逐轮退化：根因是图标视图兜底链把**自己的成品**当输入回灌，形成自我投喂循环；现已改为绝不回灌（靠来源标记判定）+ 输入健康检查 + 一次延迟重试。\n- 「默认」风格：输入没有自己的底（形状图标 / 去背图）时自动垫白卡，观感与系统图标一致。\n- 「图标包优先级」列表不再显示内置的 SolidGlass（它随安装包装载、不是用户导入的包；引擎仍把它作为最后一级回退，功能不变）。\n- 缓存换代（v63）自动重绘；已安装用户升级后无需额外操作。\n- roothide 与 rootless 两种格式同步更新。",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "#### 版本: 2.1.45（空白图标修复）\n- 修复「透明」风格下部分 App 图标渲染成空白的问题。\n- 根因：系统偶发把过渡帧当图标图交给插件（整幅半透明或纯黑空卡），去背景后近空白；且缓存不含输入指纹，写盘一次就永久生效。\n- 现在这类退化输入不再写缓存（能救的应急显示、输入恢复后自动重渲染），并全员换代缓存键强制重绘。\n- roothide 与 rootless 两种格式同步更新。",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "#### 版本: 2.1.43（首发）\n- 基于 26Home（ngkhoi）的汉化维护版，全中文界面。\n- 修复部分设备启动崩溃（安全模式）与注销后玻璃模式不保持等问题。\n- 设置页重构：署名区、越狱源入口。\n- 日志改为手动开关：默认零写盘，打开「调试日志」后才记录。",
-     "useSpacing": true
-    }
-   ]
-  }
- ]
+  ]
 }
