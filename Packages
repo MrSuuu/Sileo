@@ -54,41 +54,41 @@ SHA256: b303a0d8eb57d3adc88a2417e3365068fc2653767ad9480ffafa22aaefc22063
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27（rootless 测试）
-Version: 1.0.0-49+rootless
+Version: 1.0.0-55+rootless
 Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=12
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=12
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=13
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=13
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
-Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-49+rootless_iphoneos-arm64.deb
-Size: 3607910
-MD5sum: 017b10681f33960c8dc8da1bc8f73a04
-SHA256: b56e3bfaf2b928d36ed4b736b5aaff8ab3cb741024682dd321232eb939666842
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-55+rootless_iphoneos-arm64.deb
+Size: 3618228
+MD5sum: f88aaf328d9bd2be8706edde186adf01
+SHA256: 9f37d509dc93bef91cfa04eae3927385262c7388bb1d5246422a23d690187283
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27
-Version: 1.0.0-49
+Version: 1.0.0-55
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=12
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=12
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=13
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=13
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
-Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-49_iphoneos-arm64e.deb
-Size: 3600476
-MD5sum: 55b61fe8dc1976d3abb4dd5ed6bd3b8c
-SHA256: 573ef4b8223a847614b5119874d9cd0e9432dea43cb8542f63367ac8ff08f5d9
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-55_iphoneos-arm64e.deb
+Size: 3611920
+MD5sum: e24f8c5ce56f2ddc618566ad6a16cabe
+SHA256: 2426f962a908829b5883052eea60e3afe311602a3964f38105ce4bf6b7cb14ad
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）
