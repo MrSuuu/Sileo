@@ -59,8 +59,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=17
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=17
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=18
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=18
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -73,22 +73,22 @@ SHA256: 9f37d509dc93bef91cfa04eae3927385262c7388bb1d5246422a23d690187283
 
 Package: com.zegeyoudaoli.liquidass27
 Name: Liquid (Gl)ass 27
-Version: 1.0.0-69
+Version: 1.0.0-70
 Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=17
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=17
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=18
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=18
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
-Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-69_iphoneos-arm64e.deb
-Size: 3643510
-MD5sum: 59db2818ae7cbf8edeb2ee03c8bca3be
-SHA256: 04e547472b5fe44b71e90cb5c8ee1595fef22cccbd4d8dac25a2be2a71d27b66
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-70_iphoneos-arm64e.deb
+Size: 3616652
+MD5sum: 9a743ac2fa92b3e934b7dfe81779bd7f
+SHA256: 2973eb917493e951e172bd82bf8bf358662e8a8ba8af84ed04c8c4f77194c5d4
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）

@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.0-69"
+          "text": "1.0.0-70"
         },
         {
           "class": "DepictionTableTextView",
@@ -52,12 +52,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "更新日期",
-          "text": "2026/10/11 06:01:23"
+          "text": "2026/10/11 06:12:47"
         },
         {
           "class": "DepictionTableTextView",
           "title": "大小",
-          "text": "3.5 MB"
+          "text": "3.4 MB"
         },
         {
           "class": "DepictionHeaderView",
