@@ -29,7 +29,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "2.1.50"
+          "text": "2.1.62"
         },
         {
           "class": "DepictionTableTextView",
@@ -39,7 +39,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "更新日期",
-          "text": "2026/10/10 19:56:21"
+          "text": "2026/10/12 09:07"
         },
         {
           "class": "DepictionTableTextView",
@@ -52,6 +52,11 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.62\n- 修复 iOS 17 时钟图标双指针：根因是主题时钟素材自带烤死的指针（9:41:30），现已在生成时剥离，保留表盘数字与刻度。\n- 移除调试探针，降低耗电。",
+          "useSpacing": true
+        },
         {
           "class": "DepictionMarkdownView",
           "markdown": "#### 版本: 2.1.50\n- 修复卡顿问题。",
