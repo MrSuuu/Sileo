@@ -9,6 +9,7 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/culpritzh.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/culpritzh.json
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 14.0)
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-culpritzh.png
 Filename: debs/Culprit汉化包.deb
 Size: 12670
 MD5sum: c2d637928093bd414d8d80dab40675a1
@@ -177,6 +178,7 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/floatingtabbar.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/floatingtabbar.json
 Section: 美化
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-floatingtabbar.png
 Filename: debs/半透悬浮底栏.deb
 Size: 17452
 MD5sum: b5c1147a46a8e796b47601a4c67ee576
@@ -193,6 +195,7 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/realcputwoline.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/realcputwoline.json
 Section: ControlCenter
 Depends: com.opa334.ccsupport (>= 1.3), firmware (>= 15.0)
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-realcputwoline.png
 Filename: debs/控制中心双行CPU模块.deb
 Size: 15704
 MD5sum: 235d2a29ce03e891e7aa47444d13e31c
@@ -209,6 +212,7 @@ Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidalass.html
 Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidalass.json
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 17.0)
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-liquidalass.png
 Filename: debs/液态半透弹窗.deb
 Size: 24760
 MD5sum: 3cc7699947a5b544d4ad49f13c30b47b
