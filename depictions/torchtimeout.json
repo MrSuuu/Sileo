@@ -1,0 +1,63 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 定时关闭手电筒\n开启手电筒后，按设定的延时自动关闭，避免一直亮着耗电。\n\n- 自定义延时秒数\n- 兼容控制中心、快捷指令与第三方 App 的多种开灯路径\n- 全中文设置界面，内置一键注销",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "泽哥有道理"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 17.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/10/16 17:21"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "51 KB"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 1.0.6（首发）\n开启手电筒后，按设定的延时自动关闭。\n- 兼容控制中心、快捷指令与第三方 App 的多种开灯路径。\n- 完整中文设置界面：总开关、延时秒数、一键注销。\n- roothide 与 rootless 两种格式同步发布。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

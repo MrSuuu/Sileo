@@ -129,6 +129,40 @@ Size: 3645904
 MD5sum: 1251b58c5d03b4c53c6c1d2638ee96ac
 SHA256: 91f49a6ae4a6ad10f5e2a28306c1a9fe1d553b97fdda381b7191975c131994ff
 
+Package: com.zegeyoudaoli.torchtimeout
+Name: 定时关闭手电筒（rootless 测试）
+Version: 1.0.6+rootless
+Architecture: iphoneos-arm64
+Description: 开启手电筒后，按设定的延时自动关闭。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/torchtimeout.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/torchtimeout.json
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-torchtimeout.png
+Filename: debs/com.zegeyoudaoli.torchtimeout_1.0.6+rootless_iphoneos-arm64.deb
+Size: 47700
+MD5sum: 5dc73126bffdeed4404edba47f3dc6fc
+SHA256: 7c01dbaac67a6460537da55bf6b3ced6afe75fb3a7d82e5159af83f3b7d27fb6
+
+Package: com.zegeyoudaoli.torchtimeout
+Name: 定时关闭手电筒
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Description: 开启手电筒后，按设定的延时自动关闭。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/torchtimeout.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/torchtimeout.json
+Section: Tweaks
+Depends: mobilesubstrate
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-torchtimeout.png
+Filename: debs/com.zegeyoudaoli.torchtimeout_1.0.6_iphoneos-arm64e.deb
+Size: 51334
+MD5sum: f38b86f1ee9092699697197c06ebd0ae
+SHA256: dfd7c7fc7f8f98cd038cd7a4799c9394194bfc6b4b7da2cf6882c95ef57fda8c
+
 Package: dylv.liquidass
 Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）
 Version: 2-0.1.1-2c+island136+rootless
