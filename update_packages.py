@@ -177,7 +177,7 @@ def build_packages_text(debs_dir: Path) -> str:
     # Sileo 按「URL」缓存 depiction 与图片，包版本号不变就不重拉
     # ⇒ 改了 depiction 内容必须换 URL（追加 ?v=N），否则设备上永远显示旧版
     # （2026-10-08：封面/截图加进 json 后设备不显示，就是这个原因）
-    depiction_rev = {'liquidass27': '22', 'home27': '7'}
+    depiction_rev = {'liquidass27': '22', 'home27': '8'}
     # 图标兜底表（2026-10-16）：deb 的 control 里没写 Icon 的包，从这里补，
     # 否则源里列出来就是空白图标。已在上游 control 自带 Icon 的包不受影响（原值优先）。
     icon_defaults = {

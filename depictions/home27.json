@@ -54,6 +54,10 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
+          "markdown": "#### 版本: 2.1.63（2026/10/19）\n- 增加恢复插件默认值按钮\n"
+        },
+        {
+          "class": "DepictionMarkdownView",
           "markdown": "#### 版本: 2.1.62\n- 修复 iOS 17 时钟图标双指针：根因是主题时钟素材自带烤死的指针（9:41:30），现已在生成时剥离，保留表盘数字与刻度。\n- 移除调试探针，降低耗电。",
           "useSpacing": true
         },
