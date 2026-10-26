@@ -15,6 +15,75 @@ Size: 12670
 MD5sum: c2d637928093bd414d8d80dab40675a1
 SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
+Package: com.zege.sileobackground
+Name: Sileo 背景图
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/sileobackground.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/sileobackground.json
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Filename: debs/com.zege.sileobackground_1.1.6_iphoneos-arm64.deb
+Size: 26224
+MD5sum: b8e26c195304961444dcda95848c7da1
+SHA256: 269431b8e43206a78734def001b59a422f7f8d208ea6744c67b67fc79bf5c856
+
+Package: com.zege.sileobackground
+Name: Sileo 背景图
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/sileobackground.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/sileobackground.json
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Filename: debs/com.zege.sileobackground_1.1.6_iphoneos-arm64e.deb
+Size: 26164
+MD5sum: 9d0daf32ee1fd247fe60e1d867e19807
+SHA256: 5d2711ac2902da033160e6420c9c1b56877ebec284fab41b25dbc6f6a1fe3ff3
+
+Package: com.zege.transparentkeypad
+Name: 去拨号键盘背景
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Description: 把「电话」App 拨号键盘的圆底和绿色呼叫键背景变透明，只保留数字和电话图标。rootless 版（/var/jb）。重开电话 App 即生效。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/transparentkeypad.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/transparentkeypad.json
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-transparentkeypad.png
+Filename: debs/com.zege.transparentkeypad_1.0.3_iphoneos-arm64.deb
+Size: 11560
+MD5sum: 85779fdce363db2937b11f8e821348e9
+SHA256: a0d071027ee268a2462afd38ac0282747d3d33fda34242bcd250f7e74d99c589
+
+Package: com.zege.transparentkeypad
+Name: 去拨号键盘背景
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Description: 把「电话」App 拨号键盘的圆底和绿色呼叫键背景变透明，只保留数字和电话图标。重开电话 App 即生效。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/transparentkeypad.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/transparentkeypad.json
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Replaces: com.rein.transparentkeypad
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-transparentkeypad.png
+Filename: debs/com.zege.transparentkeypad_1.0.3_iphoneos-arm64e.deb
+Size: 11592
+MD5sum: 5c25d138d5989ae0fe058b0953e9153b
+SHA256: 91e5d6f7d323d6517dd14a979d37b6d6289b6e60eb4325838fa91b483d6b3096
+
 Package: com.zegeyoudaoli.home27
 Name: 27Home（rootless 测试）
 Version: 2.1.62+rootless

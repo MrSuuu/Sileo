@@ -1,0 +1,96 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## Sileo 背景图\n给 Sileo 加**整页自定义背景图**。装好后在 Sileo 任意位置**三指双击**打开菜单：从相册导入图片 / 恢复默认背景。\n\n背景会铺满整个列表区，卡片与分组头做半透明处理，底部悬浮栏保留液态玻璃效果。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "泽哥"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.1.6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/10/26 13:20:00"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "26 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "arm64e（roothide）/ arm64（rootless）"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{150, 175}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://MrSuuu.github.io/Sileo/depictions/sileobackground-shot1.jpg"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://MrSuuu.github.io/Sileo/depictions/sileobackground-shot2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 1.1.6\n- 底部悬浮栏：保留液态玻璃，不再被背景图盖成实色\n- 日期小标题、分组头灰块继续透明化（此前在深色背景下会露灰底）\n- 三指双击菜单新增「恢复默认背景」\n- 双架构打包：`arm64e`（roothide）/ `arm64`（rootless）",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

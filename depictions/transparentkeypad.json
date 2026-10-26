@@ -1,0 +1,92 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 去拨号键盘背景\n把「电话」App 拨号键盘里的**数字圆底**和**绿色呼叫键背景**变透明，只留下数字与电话图标。\n重开「电话」App 即生效，无需注销。\n\n对系统外观无其它改动，不注入任何网络或权限行为。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "泽哥"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/10/26 13:20:00"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "11 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "arm64e（roothide）/ arm64（rootless）"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{150, 217}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://MrSuuu.github.io/Sileo/depictions/transparentkeypad-shot1.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 1.0.3\n- 双架构打包：`arm64e`（roothide）与 `arm64`（rootless）各一份，Sileo 会按你的越狱类型自动选\n- 透明化范围覆盖普通态与按下态，呼叫键只保留绿色电话图标\n- 键盘数字/字母布局与系统保持一致，不改动点击区域",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
