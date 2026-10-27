@@ -185,6 +185,7 @@ def build_packages_text(debs_dir: Path) -> str:
         'com.zegeyoudaoli.floatingtabbar': 'icon-floatingtabbar.png',
         'com.zegeyoudaoli.realcputwoline': 'icon-realcputwoline.png',
         'com.zegeyoudaoli.liquidalass':    'icon-liquidalass.png',
+        'com.zege.27safari':               'icon-27safari.png',
     }
     lines = []
     for deb in sorted(debs_dir.glob("*.deb")):

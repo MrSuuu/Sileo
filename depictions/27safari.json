@@ -1,0 +1,81 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.3",
+  "tintColor": "#5856D6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 27Safari\n给 Safari 加上 **iOS 27 液态玻璃**外观：底部工具栏与统一标签栏换成玻璃材质，圆角、模糊半径、底色透明度一起重绘，观感贴近 iOS 27 的 Safari。\n\n注入范围只有 `com.apple.mobilesafari` 一个进程，不触碰其它 App，也不做任何网络或权限行为。\n\n装上后**建议完全退出 Safari**（上滑关掉卡片）再打开，玻璃层才会重建。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "泽哥"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "3.5.52"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15.0 +"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026/10/27 12:32:00"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "大小",
+          "text": "63 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "arm64e（roothide）/ arm64（rootless）"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "冲突",
+          "text": "com.sekoandlionel.26safari / com.rein.26safari（安装时自动替换）"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 3.5.52\n- 首次上源：`arm64e`（roothide）与 `arm64`（rootless）各一份，Sileo 按越狱类型自动选\n- 玻璃效果覆盖 Safari 底部工具栏（`SFToolbar`）与统一标签栏（`SFUnifiedTabBar`）：模糊半径、圆角、底色透明度一并接管\n- 与 `com.sekoandlionel.26safari`、`com.rein.26safari` 声明冲突并替换——三个包写的是同一批 dylib 路径，不声明的话 dpkg 会报「trying to overwrite」装不上",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

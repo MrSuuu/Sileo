@@ -15,6 +15,44 @@ Size: 12670
 MD5sum: c2d637928093bd414d8d80dab40675a1
 SHA256: 2ca0c6635d8d73db1baf07e798620323ded4deb2a7a4c91feccdc8f78f700d09
 
+Package: com.zege.27safari
+Name: 27Safari
+Version: 3.5.52
+Architecture: iphoneos-arm64
+Description: 给Safari添加iOS27液态玻璃效果。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/27safari.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/27safari.json
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.sekoandlionel.26safari, com.rein.26safari
+Replaces: com.sekoandlionel.26safari, com.rein.26safari
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-27safari.png
+Filename: debs/com.zege.27safari_3.5.52_iphoneos-arm64.deb
+Size: 64060
+MD5sum: ccd720cc8d4752851d3b7e212ca11af0
+SHA256: f18f0586eb2bd1b618568f6c97357ea65df564fc0b8c71e4b32ab4ed00570608
+
+Package: com.zege.27safari
+Name: 27Safari
+Version: 3.5.52
+Architecture: iphoneos-arm64e
+Description: 给Safari添加iOS27液态玻璃效果。
+Maintainer: 泽哥
+Author: 泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/27safari.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/27safari.json
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.sekoandlionel.26safari, com.rein.26safari
+Replaces: com.sekoandlionel.26safari, com.rein.26safari
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-27safari.png
+Filename: debs/com.zege.27safari_3.5.52_iphoneos-arm64e.deb
+Size: 64044
+MD5sum: 7b7bc3867f2a0256e9ff0a78e0247ac1
+SHA256: 0ad2b0c1796c26e5b3ec6ef8e89b50823ec866dd56576a89f01478f90ce749a8
+
 Package: com.zege.sileobackground
 Name: Sileo 背景图
 Version: 1.1.6
