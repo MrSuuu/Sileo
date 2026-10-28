@@ -205,8 +205,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -224,8 +224,8 @@ Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -243,8 +243,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -262,8 +262,8 @@ Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -281,8 +281,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -300,8 +300,8 @@ Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -319,8 +319,8 @@ Architecture: iphoneos-arm64
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -338,8 +338,8 @@ Architecture: iphoneos-arm64e
 Description: 基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -357,8 +357,8 @@ Architecture: iphoneos-arm64
 Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -376,8 +376,8 @@ Architecture: iphoneos-arm64e
 Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
 Maintainer: dylv&泽哥
 Author: dylv&泽哥
-Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=23
-Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=23
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
 Section: Tweaks
 Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
 Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
@@ -387,6 +387,44 @@ Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-77_iphoneos-arm64e.deb
 Size: 3652782
 MD5sum: b62e277fea8890715bd0dadf1252d572
 SHA256: 8dc8ea2c515bec6df7d73fc83ff6dd38d288d564e4a439a33115cb3a3c3de356
+
+Package: com.zegeyoudaoli.liquidass27
+Name: Liquid (Gl)ass 27（rootless 测试）
+Version: 1.0.0-78+rootless
+Architecture: iphoneos-arm64
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-78+rootless_iphoneos-arm64.deb
+Size: 3647222
+MD5sum: 664885719cc27622d02cde7b61176469
+SHA256: 45649a848caab5597b14823d3944506a7e7a99f0c64dc519060c7ba814c3cc71
+
+Package: com.zegeyoudaoli.liquidass27
+Name: Liquid (Gl)ass 27
+Version: 1.0.0-78
+Architecture: iphoneos-arm64e
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html?v=24
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json?v=24
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-78_iphoneos-arm64e.deb
+Size: 3652422
+MD5sum: 9783e4dabd32fea6bb5134698b622c51
+SHA256: 71690220272b271e84dfbea6f1fe44caafea338563b8a2c468b10d31b8de6e80
 
 Package: com.zegeyoudaoli.torchtimeout
 Name: 定时关闭手电筒（rootless 测试）
